@@ -1,22 +1,13 @@
-##About
+##关于
 
-This blog is about IT technology such as web, database and development.
-Additional, I'll share some of my individual life, especially about reading and
-varied opinions. Hope you will like it and discuss.
+这个网站，最主要是基于网友dylanninin的一个blog模板，基于web.py，不用数据库，直接用.md文件来实现.
+见他的![douban](/static/img/about/douban.png) [douban.com](http://www.douban.com/people/dylanninin/)
+后面我打算把她打造成很实用的网站，不只是blog。2017.4.3
 
-##Work
+##工作
 
-IT Engineer 2011.7 ~ Now
+目前我定居在杭州，也在杭州工作。
 
-##Info
+##联系我
 
-* ![douban](/static/img/about/douban.png) [douban.com](http://www.douban.com/people/dylanninin/)
-* ![weibo](/static/img/about/weibo.png) [weibo.com](http://weibo.com/dylanninin)
-* ![twitter](/static/img/about/twitter.png) [twitter.com](https://twitter.com/dylanninin)
-* ![facebook](/static/img/about/facebook.png) [facebook.com](https://www.facebook.com/dylanninin)
-* ![blog](/static/img/about/dylanninin.png) [dylanninin.com](http://www.dylanninin.com)
-* ![me](/static/img/about/me.png) [about.me](http://about.me/dylanninin)
-
-##Contact
-
-* ![gmail](/static/img/about/gmail.png) dylanninin@gmail.com
+* ![gmail](/static/img/about/gmail.png) damin-8765@tom.com

@@ -10,9 +10,9 @@ history:
 import web
 
 blogconfig = web.storage(
-    name='Pastime Paradise',
-    home='http://dylanninin.com',
-    author='dylan',
+    name='pierre-msg',
+    home='http://121.196.222.186:8080',
+    author='damin',
     disqus='"webpymdblog"',
     google_analytics='"UA-21870463-1"',
     template_dir='template',
