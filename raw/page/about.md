@@ -6,8 +6,8 @@
 
 ##工作
 
-目前我定居在杭州，也在杭州工作。
+目前我定居在上海，也在上海工作。
 
 ##联系我
 
-* ![gmail](/static/img/about/gmail.png) damin-8765@tom.com
+* damin-8765@tom.com

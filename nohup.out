@@ -1,0 +1,1264 @@
+39.187.111.161:14878 - - [04/Apr/2017 13:17:34] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14879 - - [04/Apr/2017 13:17:35] "HTTP/1.1 GET /static/css/styles.css" - 200 
+39.187.111.161:14878 - - [04/Apr/2017 13:17:35] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+39.187.111.161:14879 - - [04/Apr/2017 13:17:35] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+39.187.111.161:14884 - - [04/Apr/2017 13:17:35] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+39.187.111.161:14885 - - [04/Apr/2017 13:17:35] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+39.187.111.161:14886 - - [04/Apr/2017 13:17:35] "HTTP/1.1 GET /static/css/customize.css" - 200 
+39.187.111.161:14878 - - [04/Apr/2017 13:17:36] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+39.187.111.161:14879 - - [04/Apr/2017 13:17:36] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+39.187.111.161:14902 - - [04/Apr/2017 13:17:37] "HTTP/1.1 GET /favicon.ico" - 200 OK
+39.187.111.161:14878 - - [04/Apr/2017 13:17:39] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14879 - - [04/Apr/2017 13:17:39] "HTTP/1.1 GET /static/img/about/gmail.png" - 200 
+39.187.111.161:14878 - - [04/Apr/2017 13:17:39] "HTTP/1.1 GET /static/img/about/douban.png" - 200 
+172.82.166.210:42515 - - [04/Apr/2017 13:17:51] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+39.187.111.161:14923 - - [04/Apr/2017 13:17:55] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:15143 - - [04/Apr/2017 13:20:41] "HTTP/1.1 GET /about.html" - 200 OK
+http://0.0.0.0:80/
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 130, in _init_file
+    date = datetime.date(int(y), int(m), int(d))
+ValueError: day is out of range for month
+
+raw/entry/2013-06-31-truncate_queue_table.md
+Could not import pyinotify
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+39.187.111.161:14961 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/js/jquery.js" - 304 Not Modified
+39.187.111.161:14962 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/css/customize.css" - 304 Not Modified
+39.187.111.161:14960 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/css/styles.css" - 304 Not Modified
+39.187.111.161:14964 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/img/about/gmail.png" - 304 Not Modified
+39.187.111.161:14963 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/css/bootstrap.css" - 304 Not Modified
+39.187.111.161:14959 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14962 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 304 Not Modified
+39.187.111.161:14961 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 304 Not Modified
+39.187.111.161:14960 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/js/bootstrap.js" - 304 Not Modified
+39.187.111.161:14964 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/img/about/douban.png" - 304 Not Modified
+39.187.111.161:14963 - - [04/Apr/2017 13:29:41] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 304 Not Modified
+39.187.111.161:14959 - - [04/Apr/2017 13:29:44] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14959 - - [04/Apr/2017 13:29:44] "HTTP/1.1 GET /raw" - 200 OK
+39.187.111.161:14959 - - [04/Apr/2017 13:29:45] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:08] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:09] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:10] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:12] "HTTP/1.1 GET /blog/2013/11/10/resumes.html" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:13] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:14] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:15] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:16] "HTTP/1.1 GET /raw" - 200 OK
+39.187.111.161:15132 - - [04/Apr/2017 13:32:17] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:15155 - - [04/Apr/2017 13:32:28] "HTTP/1.1 GET /blog/2013/10/25/linux.html" - 200 OK
+39.187.111.161:15207 - - [04/Apr/2017 13:32:51] "HTTP/1.1 GET /atom.xml" - 200 OK
+39.187.111.161:15214 - - [04/Apr/2017 13:32:55] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:15214 - - [04/Apr/2017 13:32:56] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15214 - - [04/Apr/2017 13:32:57] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15256 - - [04/Apr/2017 13:33:41] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15300 - - [04/Apr/2017 13:34:28] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:15300 - - [04/Apr/2017 13:34:30] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15300 - - [04/Apr/2017 13:34:30] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15300 - - [04/Apr/2017 13:34:34] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:15300 - - [04/Apr/2017 13:34:35] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15300 - - [04/Apr/2017 13:34:41] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14347 - - [04/Apr/2017 13:34:56] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14347 - - [04/Apr/2017 13:34:58] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14372 - - [04/Apr/2017 13:35:35] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14372 - - [04/Apr/2017 13:35:36] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14372 - - [04/Apr/2017 13:35:37] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14545 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14545 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/img/about/douban.png" - 304 Not Modified
+39.187.111.161:14546 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/css/styles.css" - 304 Not Modified
+39.187.111.161:14547 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/img/about/gmail.png" - 304 Not Modified
+39.187.111.161:14548 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/js/bootstrap.js" - 304 Not Modified
+39.187.111.161:14549 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/js/jquery.js" - 304 Not Modified
+39.187.111.161:14546 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/css/customize.css" - 304 Not Modified
+39.187.111.161:14545 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 304 Not Modified
+39.187.111.161:14550 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/css/bootstrap.css" - 304 Not Modified
+39.187.111.161:14545 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 304 Not Modified
+39.187.111.161:14545 - - [04/Apr/2017 13:38:30] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 304 Not Modified
+39.187.111.161:14565 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14567 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /static/js/bootstrap.js" - 304 Not Modified
+39.187.111.161:14568 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /static/js/jquery.js" - 304 Not Modified
+39.187.111.161:14566 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /static/css/styles.css" - 304 Not Modified
+39.187.111.161:14565 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 304 Not Modified
+39.187.111.161:14567 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /static/css/bootstrap.css" - 304 Not Modified
+39.187.111.161:14566 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /static/css/customize.css" - 304 Not Modified
+39.187.111.161:14565 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 304 Not Modified
+39.187.111.161:14566 - - [04/Apr/2017 13:38:42] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 304 Not Modified
+39.187.111.161:14565 - - [04/Apr/2017 13:38:45] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14810 - - [04/Apr/2017 13:42:50] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14810 - - [04/Apr/2017 13:42:52] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:14810 - - [04/Apr/2017 13:42:55] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14850 - - [04/Apr/2017 13:43:17] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14868 - - [04/Apr/2017 13:43:40] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14881 - - [04/Apr/2017 13:43:52] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14881 - - [04/Apr/2017 13:43:52] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14881 - - [04/Apr/2017 13:43:55] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14881 - - [04/Apr/2017 13:43:55] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14881 - - [04/Apr/2017 13:43:56] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:14881 - - [04/Apr/2017 13:43:57] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14881 - - [04/Apr/2017 13:43:59] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14932 - - [04/Apr/2017 13:44:38] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14932 - - [04/Apr/2017 13:44:39] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:15028 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 304 Not Modified
+39.187.111.161:15029 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/js/bootstrap.js" - 304 Not Modified
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 458, in _delegate
+    mod = __import__(mod, None, None, [''])
+  File "/home/blog/controller.py", line 13, in <module>
+    from __init__ import entryService
+  File "/home/blog/__init__.py", line 13, in <module>
+    entryService = EntryService()
+  File "/home/blog/service.py", line 42, in __init__
+    self._init_blog()
+  File "/home/blog/service.py", line 53, in _init_blog
+    self.add_entry(False, root + '/' + f)
+  File "/home/blog/service.py", line 63, in add_entry
+    entry = self._init_entry(self.types.entry, path)
+  File "/home/blog/service.py", line 99, in _init_entry
+    header, title, categories, tags = extract.parse(entry)
+  File "/home/blog/tool.py", line 109, in parse
+    raise Exception(msg)
+Exception: Error, YAML header declaration with ['---\n', '---\r\n'] does not match in raw/entry/2017-7-2_web.py_markdown_blog.md 
+
+39.187.111.161:15029 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/img/about/douban.png" - 304 Not Modified
+39.187.111.161:15028 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/css/bootstrap.css" - 304 Not Modified
+39.187.111.161:15026 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/css/styles.css" - 304 Not Modified
+39.187.111.161:15027 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/js/jquery.js" - 304 Not Modified
+39.187.111.161:15030 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/img/about/gmail.png" - 304 Not Modified
+39.187.111.161:15025 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /about.html" - 500 Internal Server Error
+39.187.111.161:15029 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 304 Not Modified
+39.187.111.161:15030 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/css/customize.css" - 304 Not Modified
+39.187.111.161:15027 - - [04/Apr/2017 13:46:06] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 304 Not Modified
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 458, in _delegate
+    mod = __import__(mod, None, None, [''])
+  File "/home/blog/controller.py", line 13, in <module>
+    from __init__ import entryService
+  File "/home/blog/__init__.py", line 13, in <module>
+    entryService = EntryService()
+  File "/home/blog/service.py", line 42, in __init__
+    self._init_blog()
+  File "/home/blog/service.py", line 53, in _init_blog
+    self.add_entry(False, root + '/' + f)
+  File "/home/blog/service.py", line 63, in add_entry
+    entry = self._init_entry(self.types.entry, path)
+  File "/home/blog/service.py", line 99, in _init_entry
+    header, title, categories, tags = extract.parse(entry)
+  File "/home/blog/tool.py", line 109, in parse
+    raise Exception(msg)
+Exception: Error, YAML header declaration with ['---\n', '---\r\n'] does not match in raw/entry/2017-7-2_web.py_markdown_blog.md 
+
+39.187.111.161:15028 - - [04/Apr/2017 13:46:09] "HTTP/1.1 GET /" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 458, in _delegate
+    mod = __import__(mod, None, None, [''])
+  File "/home/blog/controller.py", line 13, in <module>
+    from __init__ import entryService
+  File "/home/blog/__init__.py", line 13, in <module>
+    entryService = EntryService()
+  File "/home/blog/service.py", line 42, in __init__
+    self._init_blog()
+  File "/home/blog/service.py", line 53, in _init_blog
+    self.add_entry(False, root + '/' + f)
+  File "/home/blog/service.py", line 63, in add_entry
+    entry = self._init_entry(self.types.entry, path)
+  File "/home/blog/service.py", line 99, in _init_entry
+    header, title, categories, tags = extract.parse(entry)
+  File "/home/blog/tool.py", line 109, in parse
+    raise Exception(msg)
+Exception: Error, YAML header declaration with ['---\n', '---\r\n'] does not match in raw/entry/2017-7-2_web.py_markdown_blog.md~ 
+
+39.187.111.161:15090 - - [04/Apr/2017 13:46:47] "HTTP/1.1 GET /about.html" - 500 Internal Server Error
+39.187.111.161:15113 - - [04/Apr/2017 13:47:19] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:15113 - - [04/Apr/2017 13:47:20] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:15113 - - [04/Apr/2017 13:47:22] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15113 - - [04/Apr/2017 13:47:24] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:15148 - - [04/Apr/2017 13:47:42] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:15148 - - [04/Apr/2017 13:47:51] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15148 - - [04/Apr/2017 13:47:52] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15148 - - [04/Apr/2017 13:47:53] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15148 - - [04/Apr/2017 13:47:54] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:15148 - - [04/Apr/2017 13:47:55] "HTTP/1.1 GET /raw" - 200 OK
+39.187.111.161:15148 - - [04/Apr/2017 13:47:55] "HTTP/1.1 GET /about.html" - 200 OK
+123.183.218.72:48444 - - [04/Apr/2017 15:34:19] "HTTP/1.1 GET /" - 200 OK
+123.183.218.72:48448 - - [04/Apr/2017 15:34:19] "HTTP/1.1 GET /" - 200 OK
+123.183.218.72:48453 - - [04/Apr/2017 15:34:19] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14393 - - [04/Apr/2017 15:38:54] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14395 - - [04/Apr/2017 15:38:54] "HTTP/1.1 GET /static/css/styles.css" - 200 
+39.187.111.161:14393 - - [04/Apr/2017 15:38:54] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+39.187.111.161:14395 - - [04/Apr/2017 15:38:54] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+39.187.111.161:14398 - - [04/Apr/2017 15:38:55] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+39.187.111.161:14397 - - [04/Apr/2017 15:38:55] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+39.187.111.161:14395 - - [04/Apr/2017 15:38:55] "HTTP/1.1 GET /static/css/customize.css" - 200 
+39.187.111.161:14393 - - [04/Apr/2017 15:38:56] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+39.187.111.161:14395 - - [04/Apr/2017 15:38:56] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+39.187.111.161:14404 - - [04/Apr/2017 15:39:00] "HTTP/1.1 GET /apple-touch-icon-120x120-precomposed.png" - 404 Not Found
+39.187.111.161:14405 - - [04/Apr/2017 15:39:01] "HTTP/1.1 GET /apple-touch-icon-120x120.png" - 404 Not Found
+39.187.111.161:14406 - - [04/Apr/2017 15:39:01] "HTTP/1.1 GET /apple-touch-icon.png" - 404 Not Found
+39.187.111.161:14408 - - [04/Apr/2017 15:39:01] "HTTP/1.1 GET /apple-touch-icon.png" - 404 Not Found
+39.187.111.161:14612 - - [04/Apr/2017 15:40:40] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14612 - - [04/Apr/2017 15:40:43] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14612 - - [04/Apr/2017 15:40:48] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14612 - - [04/Apr/2017 15:40:48] "HTTP/1.1 GET /static/img/about/douban.png" - 200 
+39.187.111.161:14623 - - [04/Apr/2017 15:40:48] "HTTP/1.1 GET /static/img/about/gmail.png" - 200 
+39.187.111.161:14612 - - [04/Apr/2017 15:40:51] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14815 - - [04/Apr/2017 15:42:54] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14815 - - [04/Apr/2017 15:43:00] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14840 - - [04/Apr/2017 15:43:33] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14871 - - [04/Apr/2017 15:44:05] "HTTP/1.1 GET /archive" - 200 OK
+39.187.111.161:14901 - - [04/Apr/2017 15:44:44] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14901 - - [04/Apr/2017 15:44:47] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14916 - - [04/Apr/2017 15:45:11] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14916 - - [04/Apr/2017 15:45:14] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:15012 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:15013 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /static/css/styles.css" - 200 
+39.187.111.161:15013 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+39.187.111.161:15014 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+39.187.111.161:15015 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /static/css/customize.css" - 200 
+39.187.111.161:15013 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+39.187.111.161:15012 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+39.187.111.161:15014 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+39.187.111.161:15015 - - [04/Apr/2017 15:46:49] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+39.187.111.161:14455 - - [04/Apr/2017 16:07:08] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14458 - - [04/Apr/2017 16:07:09] "HTTP/1.1 GET /static/css/styles.css" - 200 
+39.187.111.161:14458 - - [04/Apr/2017 16:07:09] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+39.187.111.161:14460 - - [04/Apr/2017 16:07:09] "HTTP/1.1 GET /static/css/customize.css" - 200 
+39.187.111.161:14459 - - [04/Apr/2017 16:07:09] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+39.187.111.161:14455 - - [04/Apr/2017 16:07:09] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+39.187.111.161:14460 - - [04/Apr/2017 16:07:09] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+39.187.111.161:14458 - - [04/Apr/2017 16:07:10] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+39.187.111.161:14460 - - [04/Apr/2017 16:07:10] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+39.187.111.161:14455 - - [04/Apr/2017 16:07:17] "HTTP/1.1 GET /search" - 200 OK
+39.187.111.161:14482 - - [04/Apr/2017 16:07:35] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14482 - - [04/Apr/2017 16:07:41] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14482 - - [04/Apr/2017 16:07:41] "HTTP/1.1 GET /static/img/about/douban.png" - 200 
+39.187.111.161:14492 - - [04/Apr/2017 16:07:41] "HTTP/1.1 GET /static/img/about/gmail.png" - 200 
+39.187.111.161:14393 - - [04/Apr/2017 18:05:25] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+39.187.111.161:14393 - - [04/Apr/2017 18:05:25] "HTTP/1.1 GET /static/css/styles.css" - 200 
+39.187.111.161:14393 - - [04/Apr/2017 18:05:25] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+39.187.111.161:14396 - - [04/Apr/2017 18:05:25] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+39.187.111.161:14395 - - [04/Apr/2017 18:05:25] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+39.187.111.161:14397 - - [04/Apr/2017 18:05:25] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+39.187.111.161:14396 - - [04/Apr/2017 18:05:25] "HTTP/1.1 GET /static/css/customize.css" - 200 
+39.187.111.161:14396 - - [04/Apr/2017 18:05:26] "HTTP/1.1 GET /" - 200 OK
+39.187.111.161:14402 - - [04/Apr/2017 18:05:26] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+39.187.111.161:14396 - - [04/Apr/2017 18:05:27] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+39.187.111.161:14402 - - [04/Apr/2017 18:05:27] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+39.187.111.161:14407 - - [04/Apr/2017 18:05:27] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+39.187.111.161:14408 - - [04/Apr/2017 18:05:28] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+39.187.111.161:14396 - - [04/Apr/2017 18:05:38] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14396 - - [04/Apr/2017 18:05:39] "HTTP/1.1 GET /static/img/about/douban.png" - 200 
+39.187.111.161:14414 - - [04/Apr/2017 18:05:39] "HTTP/1.1 GET /static/img/about/gmail.png" - 200 
+39.187.111.161:14396 - - [04/Apr/2017 18:05:45] "HTTP/1.1 GET /about.html" - 200 OK
+39.187.111.161:14449 - - [04/Apr/2017 18:06:21] "HTTP/1.1 GET /archive" - 200 OK
+118.178.228.154:17562 - - [04/Apr/2017 18:44:31] "HTTP/1.1 GET /" - 200 OK
+69.30.198.178:36810 - - [04/Apr/2017 18:45:53] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+69.30.198.178:36810 - - [04/Apr/2017 18:46:02] "HTTP/1.1 GET /dataserver/102" - 404 Not Found
+69.30.198.178:36810 - - [04/Apr/2017 18:46:07] "HTTP/1.1 GET /dataserver/341" - 404 Not Found
+118.173.173.152:2261 - - [04/Apr/2017 19:13:02] "HTTP/1.1 GET /" - 200 OK
+66.249.69.1:39257 - - [04/Apr/2017 19:29:57] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+66.249.69.1:38277 - - [04/Apr/2017 19:45:28] "HTTP/1.1 GET /userbuy/1000008883" - 404 Not Found
+66.249.69.5:54383 - - [04/Apr/2017 19:45:29] "HTTP/1.1 GET /goods_list/18_41_1" - 404 Not Found
+66.249.69.1:49291 - - [04/Apr/2017 19:50:00] "HTTP/1.1 GET /goods_list/0_48_3" - 404 Not Found
+66.249.69.5:42532 - - [04/Apr/2017 19:54:59] "HTTP/1.1 GET /dataserver/214" - 404 Not Found
+66.249.69.9:42813 - - [04/Apr/2017 19:59:58] "HTTP/1.1 GET /goods_list/0_53_0" - 404 Not Found
+66.249.69.9:34721 - - [04/Apr/2017 20:04:58] "HTTP/1.1 GET /goods_list/0_65_0" - 404 Not Found
+66.249.69.1:58072 - - [04/Apr/2017 20:05:00] "HTTP/1.1 GET /userbuy/1000008993" - 404 Not Found
+66.249.69.5:52599 - - [04/Apr/2017 20:26:07] "HTTP/1.1 GET /goods_list/20" - 404 Not Found
+68.180.229.158:52942 - - [04/Apr/2017 20:44:19] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+68.180.229.158:53214 - - [04/Apr/2017 20:44:20] "HTTP/1.1 GET /" - 200 OK
+68.180.229.158:42960 - - [04/Apr/2017 20:46:14] "HTTP/1.1 GET /webpy.com" - 404 Not Found
+68.180.229.158:44772 - - [04/Apr/2017 20:46:25] "HTTP/1.1 GET /atom.xml" - 200 OK
+68.180.229.158:46054 - - [04/Apr/2017 20:46:33] "HTTP/1.1 GET /search" - 200 OK
+68.180.228.114:58484 - - [04/Apr/2017 20:46:45] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+68.180.228.114:58652 - - [04/Apr/2017 20:46:46] "HTTP/1.1 GET /" - 200 OK
+68.180.229.158:49036 - - [04/Apr/2017 20:46:52] "HTTP/1.1 GET /search" - 200 OK
+68.180.229.158:50096 - - [04/Apr/2017 20:46:59] "HTTP/1.1 GET /search" - 200 OK
+68.180.229.158:50634 - - [04/Apr/2017 20:47:02] "HTTP/1.1 GET /about.html" - 200 OK
+68.180.229.158:54572 - - [04/Apr/2017 20:47:28] "HTTP/1.1 GET /raw" - 200 OK
+68.180.229.158:60800 - - [04/Apr/2017 20:48:11] "HTTP/1.1 GET /search" - 200 OK
+68.180.229.158:35962 - - [04/Apr/2017 20:48:33] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+68.180.229.158:38466 - - [04/Apr/2017 20:54:48] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.9:61358 - - [04/Apr/2017 20:59:29] "HTTP/1.1 GET /userraffle/1000005075" - 404 Not Found
+140.205.201.41:12663 - - [04/Apr/2017 21:08:36] "HTTP/1.1 POST /khwzxanqglor" - 405 Method Not Allowed
+140.205.201.41:12668 - - [04/Apr/2017 21:08:36] "HTTP/1.1 GET /khwzxanqglor" - 404 Not Found
+140.205.201.41:12712 - - [04/Apr/2017 21:08:36] "HTTP/1.1 DELETE /khwzxanqglor" - 405 Method Not Allowed
+140.205.201.41:12720 - - [04/Apr/2017 21:08:36] "HTTP/1.1 GET /warning" - 404 Not Found
+140.205.201.41:40054 - - [04/Apr/2017 21:12:23] "HTTP/1.1 GET /pleasereadthis" - 404 Not Found
+68.180.229.158:53092 - - [04/Apr/2017 21:13:09] "HTTP/1.1 GET /search" - 200 OK
+140.205.201.41:48685 - - [04/Apr/2017 21:15:02] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.41:48883 - - [04/Apr/2017 21:15:02] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.41:48965 - - [04/Apr/2017 21:15:02] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.41:49002 - - [04/Apr/2017 21:15:03] "HTTP/1.1 GET /please_read/_search" - 404 Not Found
+140.205.201.41:49015 - - [04/Apr/2017 21:15:03] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.201.41:17336 - - [04/Apr/2017 21:16:29] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.41:17384 - - [04/Apr/2017 21:16:29] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.41:17436 - - [04/Apr/2017 21:16:29] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.41:17562 - - [04/Apr/2017 21:16:29] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.201.41:56759 - - [04/Apr/2017 21:18:29] "HTTP/1.1 GET /about/" - 404 Not Found
+140.205.201.41:20946 - - [04/Apr/2017 21:23:45] "HTTP/1.1 GET /clusters.jsf" - 404 Not Found
+68.180.228.114:57952 - - [04/Apr/2017 21:25:10] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+68.180.229.158:57644 - - [04/Apr/2017 21:27:21] "HTTP/1.1 GET /archive/2017/07/" - 200 OK
+140.205.201.41:36332 - - [04/Apr/2017 21:32:42] "HTTP/1.1 GET /" - 200 OK
+140.205.201.41:16269 - - [04/Apr/2017 21:36:34] "HTTP/1.1 GET /hwi/" - 404 Not Found
+140.205.201.41:26748 - - [04/Apr/2017 21:37:03] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.201.41:41797 - - [04/Apr/2017 21:37:47] "HTTP/1.1 GET /" - 200 OK
+140.205.201.41:50114 - - [04/Apr/2017 21:38:06] "HTTP/1.1 GET /" - 200 OK
+140.205.201.41:53874 - - [04/Apr/2017 21:38:16] "HTTP/1.1 GET /" - 200 OK
+140.205.201.41:56499 - - [04/Apr/2017 21:38:22] "HTTP/1.1 GET /jobs/" - 404 Not Found
+140.205.201.41:57763 - - [04/Apr/2017 21:38:25] "HTTP/1.1 GET /ganglia/index.php" - 404 Not Found
+140.205.201.41:58818 - - [04/Apr/2017 21:38:27] "HTTP/1.1 GET /index.php" - 404 Not Found
+140.205.201.41:61094 - - [04/Apr/2017 21:38:33] "HTTP/1.1 GET /rs-status" - 404 Not Found
+140.205.201.41:64066 - - [04/Apr/2017 21:38:41] "HTTP/1.1 GET /master-status" - 404 Not Found
+140.205.201.41:64947 - - [04/Apr/2017 21:38:43] "HTTP/1.1 GET /dfshealth.html" - 404 Not Found
+140.205.201.41:2947 - - [04/Apr/2017 21:38:49] "HTTP/1.1 GET /" - 200 OK
+140.205.201.41:4028 - - [04/Apr/2017 21:38:52] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.201.41:14260 - - [04/Apr/2017 21:39:26] "HTTP/1.1 GET /dfshealth.jsp" - 404 Not Found
+140.205.201.41:30207 - - [04/Apr/2017 21:40:16] "HTTP/1.1 GET /hadoop/dfshealth.jsp" - 404 Not Found
+140.205.201.41:32386 - - [04/Apr/2017 21:43:22] "HTTP/1.1 GET /solr/" - 404 Not Found
+140.205.201.41:47520 - - [04/Apr/2017 21:43:59] "HTTP/1.1 GET /" - 200 OK
+140.205.201.41:22995 - - [04/Apr/2017 21:46:15] "HTTP/1.1 GET /info" - 404 Not Found
+111.162.137.205:50297 - - [04/Apr/2017 21:50:06] "HTTP/1.1 GET /search" - 200 OK
+180.76.15.5:33835 - - [04/Apr/2017 22:13:42] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+180.76.15.31:42051 - - [04/Apr/2017 22:13:42] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+66.249.69.131:55578 - - [04/Apr/2017 22:15:39] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+140.205.201.41:29030 - - [04/Apr/2017 22:16:14] "HTTP/1.1 GET /j_acegi_security_check" - 404 Not Found
+140.205.201.41:31206 - - [04/Apr/2017 22:16:19] "HTTP/1.1 GET /admin/" - 404 Not Found
+140.205.201.41:33815 - - [04/Apr/2017 22:16:24] "HTTP/1.1 GET /" - 200 OK
+180.76.15.21:11941 - - [04/Apr/2017 22:16:56] "HTTP/1.1 GET /uname/1000001644" - 404 Not Found
+66.249.69.131:37215 - - [04/Apr/2017 22:20:38] "HTTP/1.1 GET /go/goods/go_record_ifram/259/20" - 404 Not Found
+66.249.69.134:45524 - - [04/Apr/2017 22:46:08] "HTTP/1.1 GET /goods/582" - 404 Not Found
+66.249.69.9:39267 - - [04/Apr/2017 22:56:19] "HTTP/1.1 GET /dataserver/46" - 404 Not Found
+66.249.69.131:61651 - - [04/Apr/2017 23:16:25] "HTTP/1.1 GET /userraffle/1000011325" - 404 Not Found
+66.249.69.134:59265 - - [04/Apr/2017 23:38:57] "HTTP/1.1 GET /" - 200 OK
+66.249.69.131:46657 - - [04/Apr/2017 23:39:07] "HTTP/1.1 GET /static/css/styles.css" - 200 
+66.249.69.137:33102 - - [04/Apr/2017 23:39:08] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+66.249.69.131:46657 - - [04/Apr/2017 23:39:10] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+66.249.69.134:54453 - - [04/Apr/2017 23:39:11] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+66.249.69.131:46657 - - [04/Apr/2017 23:39:12] "HTTP/1.1 GET /static/css/customize.css" - 200 
+66.249.69.131:46657 - - [04/Apr/2017 23:39:13] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+66.249.69.134:44565 - - [04/Apr/2017 23:40:50] "HTTP/1.1 GET /atom.xml" - 200 OK
+66.249.69.131:38835 - - [04/Apr/2017 23:41:00] "HTTP/1.1 GET /raw" - 200 OK
+66.249.75.9:47073 - - [04/Apr/2017 23:41:09] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+66.249.75.9:47073 - - [04/Apr/2017 23:41:10] "HTTP/1.1 GET /" - 200 OK
+66.249.69.131:65195 - - [04/Apr/2017 23:41:20] "HTTP/1.1 GET /archive" - 200 OK
+66.249.69.131:54979 - - [04/Apr/2017 23:41:30] "HTTP/1.1 GET /webpy.com" - 404 Not Found
+66.249.69.131:59081 - - [04/Apr/2017 23:41:42] "HTTP/1.1 GET /about.html" - 200 OK
+66.249.69.131:53454 - - [04/Apr/2017 23:41:54] "HTTP/1.1 GET /archive/2017/07/" - 200 OK
+66.249.69.134:42396 - - [04/Apr/2017 23:42:15] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+66.249.69.131:47939 - - [04/Apr/2017 23:42:39] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.137:53141 - - [04/Apr/2017 23:43:02] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.134:41003 - - [04/Apr/2017 23:43:26] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.131:34951 - - [04/Apr/2017 23:43:51] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.134:39411 - - [04/Apr/2017 23:44:16] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.134:54070 - - [04/Apr/2017 23:44:44] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.12:61223 - - [04/Apr/2017 23:45:50] "HTTP/1.1 GET /archive/2017/07/" - 200 OK
+66.249.69.134:35071 - - [04/Apr/2017 23:45:51] "HTTP/1.1 GET /raw/2017/07/02/web.py_markdown_blog.md" - 200 OK
+66.249.69.134:35071 - - [04/Apr/2017 23:45:57] "HTTP/1.1 GET /raw/about.md" - 200 OK
+http://0.0.0.0:80/
+Could not import pyinotify
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/2017/07/02/web.py_markdown_blog.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/about.html' is not in list
+
+Traceback (most recent call l66.249.75.15:62809 - - [04/Apr/2017 23:46:06] "HTTP/1.1 GET /raw" - 200 OK
+66.249.69.137:53211 - - [04/Apr/2017 23:46:13] "HTTP/1.1 GET /archive/2017/07/webpy.com" - 404 Not Found
+66.249.75.12:61173 - - [04/Apr/2017 23:46:21] "HTTP/1.1 GET /archive" - 200 OK
+66.249.75.9:60657 - - [04/Apr/2017 23:46:34] "HTTP/1.1 GET /atom.xml" - 200 OK
+66.249.75.9:38560 - - [04/Apr/2017 23:46:50] "HTTP/1.1 GET /webpy.com" - 404 Not Found
+66.249.75.9:55566 - - [04/Apr/2017 23:47:06] "HTTP/1.1 GET /about.html" - 200 OK
+66.249.75.12:45108 - - [04/Apr/2017 23:47:22] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+66.249.69.137:47371 - - [04/Apr/2017 23:47:38] "HTTP/1.1 GET /blog/2017/07/02/webpy.com" - 404 Not Found
+66.249.75.9:36254 - - [04/Apr/2017 23:47:54] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.134:60853 - - [04/Apr/2017 23:48:10] "HTTP/1.1 GET /search" - 404 Not Found
+66.249.69.131:51439 - - [04/Apr/2017 23:48:26] "HTTP/1.1 GET /search" - 404 Not Found
+66.249.75.9:57939 - - [04/Apr/2017 23:48:42] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.9:38382 - - [04/Apr/2017 23:48:59] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.12:37536 - - [04/Apr/2017 23:49:14] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.12:36550 - - [04/Apr/2017 23:49:31] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.9:57197 - - [04/Apr/2017 23:49:50] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.9:47400 - - [04/Apr/2017 23:51:01] "HTTP/1.1 GET /blog/2017/07/02/webpy.com" - 404 Not Found
+66.249.75.9:47400 - - [04/Apr/2017 23:51:03] "HTTP/1.1 GET /archive/2017/07/webpy.com" - 404 Not Found
+66.249.75.12:59833 - - [04/Apr/2017 23:51:08] "HTTP/1.1 GET /raw/2017/07/02/web.py_markdown_blog.md" - 200 OK
+66.249.75.9:47400 - - [04/Apr/2017 23:51:11] "HTTP/1.1 GET /search" - 404 Not Found
+66.249.75.9:55249 - - [04/Apr/2017 23:52:43] "HTTP/1.1 GET /raw/about.md" - 200 OK
+66.249.75.12:38785 - - [04/Apr/2017 23:54:11] "HTTP/1.1 GET /search" - 404 Not Found
+66.249.69.131:59888 - - [05/Apr/2017 00:01:25] "HTTP/1.1 GET /dataserver/459" - 404 Not Found
+66.249.69.1:42734 - - [05/Apr/2017 00:23:55] "HTTP/1.1 GET /goods/42" - 404 Not Found
+66.249.69.1:40254 - - [05/Apr/2017 00:46:25] "HTTP/1.1 GET /" - 200 OK
+66.249.69.1:40254 - - [05/Apr/2017 00:46:28] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+66.249.69.1:40254 - - [05/Apr/2017 00:46:29] "HTTP/1.1 GET /static/css/styles.css" - 200 
+66.249.69.5:61133 - - [05/Apr/2017 00:46:30] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+66.249.69.1:40254 - - [05/Apr/2017 00:46:31] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+66.249.69.1:40254 - - [05/Apr/2017 00:46:32] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+66.249.69.5:61133 - - [05/Apr/2017 00:46:33] "HTTP/1.1 GET /static/css/customize.css" - 200 
+66.249.75.10:62580 - - [05/Apr/2017 01:08:55] "HTTP/1.1 GET /goods_list/2_0_6" - 404 Not Found
+112.17.241.198:23725 - - [05/Apr/2017 01:26:16] "HTTP/1.1 GET /archive" - 200 OK
+112.17.241.198:23725 - - [05/Apr/2017 01:26:16] "HTTP/1.1 GET /static/css/styles.css" - 200 
+112.17.241.198:23725 - - [05/Apr/2017 01:26:16] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+112.17.241.198:23726 - - [05/Apr/2017 01:26:16] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+112.17.241.198:23727 - - [05/Apr/2017 01:26:16] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+112.17.241.198:23728 - - [05/Apr/2017 01:26:16] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+66.249.69.9:33692 - - [05/Apr/2017 01:31:25] "HTTP/1.1 GET /userraffle/1000007038" - 404 Not Found
+66.249.69.1:39555 - - [05/Apr/2017 01:53:55] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:43278 - - [05/Apr/2017 01:59:09] "HTTP/1.1 POST /snlvhzfacgrb" - 405 Method Not Allowed
+140.205.201.36:43285 - - [05/Apr/2017 01:59:09] "HTTP/1.1 GET /snlvhzfacgrb" - 404 Not Found
+140.205.201.36:43316 - - [05/Apr/2017 01:59:09] "HTTP/1.1 DELETE /snlvhzfacgrb" - 405 Method Not Allowed
+140.205.201.36:60910 - - [05/Apr/2017 01:59:32] "HTTP/1.1 GET /warning" - 404 Not Found
+140.205.201.36:34952 - - [05/Apr/2017 02:02:23] "HTTP/1.1 GET /pleasereadthis" - 404 Not Found
+140.205.201.36:48396 - - [05/Apr/2017 02:04:45] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.36:48460 - - [05/Apr/2017 02:04:46] "HTTP/1.1 GET /please_read/_search" - 404 Not Found
+140.205.201.36:48518 - - [05/Apr/2017 02:04:46] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.36:48778 - - [05/Apr/2017 02:04:46] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.36:48905 - - [05/Apr/2017 02:04:46] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.201.36:57891 - - [05/Apr/2017 02:04:56] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.36:57990 - - [05/Apr/2017 02:04:56] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.36:58120 - - [05/Apr/2017 02:04:56] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.36:58257 - - [05/Apr/2017 02:04:57] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.201.36:38436 - - [05/Apr/2017 02:05:07] "HTTP/1.1 GET /about/" - 404 Not Found
+140.205.201.36:42880 - - [05/Apr/2017 02:05:48] "HTTP/1.1 GET /clusters.jsf" - 404 Not Found
+140.205.201.36:36859 - - [05/Apr/2017 02:09:42] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:44289 - - [05/Apr/2017 02:11:35] "HTTP/1.1 GET /hwi/" - 404 Not Found
+140.205.201.36:48464 - - [05/Apr/2017 02:12:14] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.201.36:58359 - - [05/Apr/2017 02:12:27] "HTTP/1.1 GET /" - 200 OK
+66.249.69.131:57685 - - [05/Apr/2017 02:16:25] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:35825 - - [05/Apr/2017 02:18:09] "HTTP/1.1 GET /" - 200 OK
+66.249.69.5:54993 - - [05/Apr/2017 02:19:46] "HTTP/1.1 GET /statics/uploads/" - 404 Not Found
+140.205.201.36:34354 - - [05/Apr/2017 02:23:45] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:50810 - - [05/Apr/2017 02:26:49] "HTTP/1.1 GET /jobs/" - 404 Not Found
+140.205.201.36:41042 - - [05/Apr/2017 02:27:07] "HTTP/1.1 GET /ganglia/index.php" - 404 Not Found
+140.205.201.36:48231 - - [05/Apr/2017 02:27:37] "HTTP/1.1 GET /index.php" - 404 Not Found
+140.205.201.36:48533 - - [05/Apr/2017 02:28:26] "HTTP/1.1 GET /rs-status" - 404 Not Found
+140.205.201.36:50696 - - [05/Apr/2017 02:29:22] "HTTP/1.1 GET /master-status" - 404 Not Found
+140.205.201.36:33529 - - [05/Apr/2017 02:29:32] "HTTP/1.1 GET /dfshealth.html" - 404 Not Found
+140.205.201.36:35181 - - [05/Apr/2017 02:30:25] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:56860 - - [05/Apr/2017 02:30:42] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.201.36:58945 - - [05/Apr/2017 02:31:10] "HTTP/1.1 GET /dfshealth.jsp" - 404 Not Found
+140.205.201.36:56939 - - [05/Apr/2017 02:31:56] "HTTP/1.1 GET /hadoop/dfshealth.jsp" - 404 Not Found
+140.205.201.36:34350 - - [05/Apr/2017 02:33:28] "HTTP/1.1 GET /solr/" - 404 Not Found
+140.205.201.36:55379 - - [05/Apr/2017 02:34:26] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:43919 - - [05/Apr/2017 02:37:20] "HTTP/1.1 GET /info" - 404 Not Found
+140.205.201.36:41518 - - [05/Apr/2017 02:37:31] "HTTP/1.1 GET /j_acegi_security_check" - 404 Not Found
+140.205.201.36:49855 - - [05/Apr/2017 02:37:35] "HTTP/1.1 GET /admin/" - 404 Not Found
+140.205.201.36:56720 - - [05/Apr/2017 02:37:38] "HTTP/1.1 GET /" - 200 OK
+66.249.69.1:34457 - - [05/Apr/2017 02:38:55] "HTTP/1.1 GET /" - 200 OK
+66.249.69.134:43517 - - [05/Apr/2017 03:01:25] "HTTP/1.1 GET /goods_list/0_36_5" - 404 Not Found
+139.162.114.70:57556 - - [05/Apr/2017 03:14:03] "HTTP/1.1 GET /" - 200 OK
+66.249.69.134:33816 - - [05/Apr/2017 03:14:16] "HTTP/1.1 GET /go/shaidan/itemiframstory/492" - 404 Not Found
+66.249.75.9:64227 - - [05/Apr/2017 03:25:09] "HTTP/1.1 GET /static/css/styles.css" - 200 
+66.249.75.15:36904 - - [05/Apr/2017 03:25:10] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+66.249.75.9:64227 - - [05/Apr/2017 03:25:11] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+66.249.75.12:60035 - - [05/Apr/2017 03:25:12] "HTTP/1.1 GET /static/css/customize.css" - 200 
+66.249.75.12:60035 - - [05/Apr/2017 03:25:12] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+66.249.75.9:64227 - - [05/Apr/2017 03:25:13] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+66.249.69.134:50835 - - [05/Apr/2017 03:27:08] "HTTP/1.1 GET /help/12" - 404 Not Found
+66.249.69.131:64362 - - [05/Apr/2017 03:39:59] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.134:60903 - - [05/Apr/2017 03:52:50] "HTTP/1.1 GET /archive/2017/07/" - 200 OK
+66.249.69.131:47859 - - [05/Apr/2017 04:05:42] "HTTP/1.1 GET /blog/2017/07/02/web.py_markdown_blog.html" - 200 OK
+66.249.69.137:53299 - - [05/Apr/2017 04:18:33] "HTTP/1.1 GET /help/3" - 404 Not Found
+66.249.69.1:61158 - - [05/Apr/2017 04:31:25] "HTTP/1.1 GET /dataserver/569" - 404 Not Found
+66.249.69.137:59018 - - [05/Apr/2017 04:44:17] "HTTP/1.1 GET /goods/575" - 404 Not Found
+66.249.75.10:48462 - - [05/Apr/2017 04:57:08] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.134:62512 - - [05/Apr/2017 05:09:59] "HTTP/1.1 GET /goods_list/2_13_0" - 404 Not Found
+66.249.75.7:37885 - - [05/Apr/2017 05:22:51] "HTTP/1.1 GET /goods/44" - 404 Not Found
+66.249.75.4:47384 - - [05/Apr/2017 05:35:42] "HTTP/1.1 GET /goods_list/1_3_0" - 404 Not Found
+66.249.75.4:62440 - - [05/Apr/2017 05:48:33] "HTTP/1.1 GET /" - 200 OK
+66.249.75.7:40595 - - [05/Apr/2017 06:01:25] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.7:33440 - - [05/Apr/2017 06:14:17] "HTTP/1.1 GET /search" - 200 OK
+66.249.69.5:61629 - - [05/Apr/2017 06:27:08] "HTTP/1.1 GET /" - 200 OK
+120.76.28.5:44671 - - [05/Apr/2017 06:33:27] "HTTP/1.1 GET /" - 200 OK
+120.76.28.5:49370 - - [05/Apr/2017 06:33:31] "HTTP/1.1 HEAD /" - 200 OK
+120.76.28.5:55981 - - [05/Apr/2017 06:33:37] "HTTP/1.1 TRACE /" - 405 Method Not Allowed
+66.249.69.131:45658 - - [05/Apr/2017 06:39:59] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.10:57687 - - [05/Apr/2017 06:52:51] "HTTP/1.1 GET /about.html" - 200 OK
+66.249.75.10:50919 - - [05/Apr/2017 07:05:42] "HTTP/1.1 GET /goods_list/4_57_4" - 404 Not Found
+45.78.21.158:58892 - - [05/Apr/2017 07:11:10] "HTTP/1.1 GET /" - 200 OK
+66.249.69.5:63617 - - [05/Apr/2017 07:18:33] "HTTP/1.1 GET /goods_list/21" - 404 Not Found
+66.249.69.1:48916 - - [05/Apr/2017 07:31:25] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+66.249.69.1:41261 - - [05/Apr/2017 07:31:25] "HTTP/1.1 GET /uname/1000012285" - 404 Not Found
+140.205.201.40:54188 - - [05/Apr/2017 07:37:05] "HTTP/1.1 POST /rdchebsxnwjv" - 405 Method Not Allowed
+140.205.201.40:54203 - - [05/Apr/2017 07:37:05] "HTTP/1.1 GET /rdchebsxnwjv" - 404 Not Found
+140.205.201.40:54403 - - [05/Apr/2017 07:37:05] "HTTP/1.1 DELETE /rdchebsxnwjv" - 405 Method Not Allowed
+140.205.201.40:37798 - - [05/Apr/2017 07:37:20] "HTTP/1.1 GET /warning" - 404 Not Found
+140.205.201.40:45626 - - [05/Apr/2017 07:39:46] "HTTP/1.1 GET /pleasereadthis" - 404 Not Found
+140.205.201.40:52740 - - [05/Apr/2017 07:41:36] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.40:52820 - - [05/Apr/2017 07:41:36] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.40:52892 - - [05/Apr/2017 07:41:36] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.40:53080 - - [05/Apr/2017 07:41:36] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.201.40:53930 - - [05/Apr/2017 07:41:37] "HTTP/1.1 GET /please_read/_search" - 404 Not Found
+140.205.201.40:60900 - - [05/Apr/2017 07:42:24] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.40:60970 - - [05/Apr/2017 07:42:24] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.40:33055 - - [05/Apr/2017 07:42:24] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.40:33143 - - [05/Apr/2017 07:42:24] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.201.40:48345 - - [05/Apr/2017 07:43:39] "HTTP/1.1 GET /about/" - 404 Not Found
+66.249.75.12:56690 - - [05/Apr/2017 07:44:16] "HTTP/1.1 GET /" - 200 OK
+140.205.201.40:51283 - - [05/Apr/2017 07:47:37] "HTTP/1.1 GET /clusters.jsf" - 404 Not Found
+140.205.201.40:47596 - - [05/Apr/2017 07:50:58] "HTTP/1.1 GET /" - 200 OK
+140.205.201.40:57496 - - [05/Apr/2017 07:52:05] "HTTP/1.1 GET /hwi/" - 404 Not Found
+140.205.201.40:38775 - - [05/Apr/2017 07:52:17] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.201.40:52337 - - [05/Apr/2017 07:53:04] "HTTP/1.1 GET /" - 200 OK
+140.205.201.40:43745 - - [05/Apr/2017 07:53:23] "HTTP/1.1 GET /" - 200 OK
+140.205.201.40:51475 - - [05/Apr/2017 07:53:30] "HTTP/1.1 GET /" - 200 OK
+140.205.201.40:57382 - - [05/Apr/2017 07:53:35] "HTTP/1.1 GET /jobs/" - 404 Not Found
+140.205.201.40:59782 - - [05/Apr/2017 07:53:37] "HTTP/1.1 GET /ganglia/index.php" - 404 Not Found
+140.205.201.40:34987 - - [05/Apr/2017 07:53:39] "HTTP/1.1 GET /index.php" - 404 Not Found
+140.205.201.40:40706 - - [05/Apr/2017 07:54:49] "HTTP/1.1 GET /rs-status" - 404 Not Found
+80.82.78.38:42896 - - [05/Apr/2017 07:56:46] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+66.249.75.4:39321 - - [05/Apr/2017 07:57:08] "HTTP/1.1 GET /uname/1000000276" - 404 Not Found
+140.205.201.40:52385 - - [05/Apr/2017 07:57:26] "HTTP/1.1 GET /master-status" - 404 Not Found
+140.205.201.40:44599 - - [05/Apr/2017 07:58:39] "HTTP/1.1 GET /dfshealth.html" - 404 Not Found
+140.205.201.40:35439 - - [05/Apr/2017 07:59:56] "HTTP/1.1 GET /" - 200 OK
+140.205.201.40:46469 - - [05/Apr/2017 08:00:53] "HTTP/1.1 POST /" - 405 Method Not Allowed
+122.224.201.170:61529 - - [05/Apr/2017 08:01:38] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:61529 - - [05/Apr/2017 08:01:38] "HTTP/1.1 GET /static/css/styles.css" - 200 
+122.224.201.170:61529 - - [05/Apr/2017 08:01:38] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+122.224.201.170:61530 - - [05/Apr/2017 08:01:38] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+122.224.201.170:61532 - - [05/Apr/2017 08:01:38] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+122.224.201.170:61531 - - [05/Apr/2017 08:01:38] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+122.224.201.170:61529 - - [05/Apr/2017 08:01:38] "HTTP/1.1 GET /static/css/customize.css" - 200 
+122.224.201.170:61529 - - [05/Apr/2017 08:01:40] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+122.224.201.170:61530 - - [05/Apr/2017 08:01:40] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+122.224.201.170:61529 - - [05/Apr/2017 08:01:44] "HTTP/1.1 GET /raw" - 200 OK
+140.205.201.40:45430 - - [05/Apr/2017 08:05:02] "HTTP/1.1 GET /dfshealth.jsp" - 404 Not Found
+140.205.201.40:48252 - - [05/Apr/2017 08:08:50] "HTTP/1.1 GET /hadoop/dfshealth.jsp" - 404 Not Found
+66.249.75.7:43847 - - [05/Apr/2017 08:09:59] "HTTP/1.1 GET /goods_list/1_0_6" - 404 Not Found
+140.205.201.40:47604 - - [05/Apr/2017 08:12:32] "HTTP/1.1 GET /solr/" - 404 Not Found
+140.205.201.40:41120 - - [05/Apr/2017 08:13:16] "HTTP/1.1 GET /" - 200 OK
+140.205.201.40:39443 - - [05/Apr/2017 08:13:39] "HTTP/1.1 GET /info" - 404 Not Found
+140.205.201.40:58028 - - [05/Apr/2017 08:13:58] "HTTP/1.1 GET /j_acegi_security_check" - 404 Not Found
+140.205.201.40:35200 - - [05/Apr/2017 08:14:03] "HTTP/1.1 GET /admin/" - 404 Not Found
+163.172.147.100:63714 - - [05/Apr/2017 08:14:07] "HTTP/1.1 GET chk_prx.php" - 404 Not Found
+140.205.201.40:39678 - - [05/Apr/2017 08:14:08] "HTTP/1.1 GET /" - 200 OK
+66.249.75.4:36432 - - [05/Apr/2017 08:22:50] "HTTP/1.1 GET /uname/1000002720" - 404 Not Found
+66.249.75.4:51405 - - [05/Apr/2017 08:35:42] "HTTP/1.1 GET /goods_list/0_26_6" - 404 Not Found
+66.249.75.7:54393 - - [05/Apr/2017 08:48:34] "HTTP/1.1 GET /archive" - 200 OK
+42.156.251.185:38574 - - [05/Apr/2017 09:10:57] "HTTP/1.1 GET /" - 200 OK
+66.249.75.10:55162 - - [05/Apr/2017 09:39:31] "HTTP/1.1 GET /raw" - 200 OK
+66.249.75.4:44530 - - [05/Apr/2017 10:29:58] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+66.249.75.10:39949 - - [05/Apr/2017 10:29:59] "HTTP/1.1 GET /goods_list/21_84_5" - 404 Not Found
+66.249.75.7:43023 - - [05/Apr/2017 11:19:58] "HTTP/1.1 GET /search" - 200 OK
+66.249.75.7:57915 - - [05/Apr/2017 12:10:20] "HTTP/1.1 GET /" - 200 OK
+66.249.69.131:58188 - - [05/Apr/2017 13:21:20] "HTTP/1.1 GET /goods/584" - 404 Not Found
+140.205.201.36:58950 - - [05/Apr/2017 13:39:51] "HTTP/1.1 POST /fnhstkxoalgq" - 405 Method Not Allowed
+140.205.201.36:58959 - - [05/Apr/2017 13:39:52] "HTTP/1.1 GET /fnhstkxoalgq" - 404 Not Found
+140.205.201.36:59182 - - [05/Apr/2017 13:39:52] "HTTP/1.1 DELETE /fnhstkxoalgq" - 405 Method Not Allowed
+140.205.201.36:36274 - - [05/Apr/2017 13:39:57] "HTTP/1.1 GET /warning" - 404 Not Found
+140.205.201.36:56816 - - [05/Apr/2017 13:46:10] "HTTP/1.1 GET /pleasereadthis" - 404 Not Found
+140.205.201.36:49629 - - [05/Apr/2017 13:53:28] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.36:49776 - - [05/Apr/2017 13:53:28] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.36:49972 - - [05/Apr/2017 13:53:29] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.36:50153 - - [05/Apr/2017 13:53:29] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.201.36:53866 - - [05/Apr/2017 13:53:32] "HTTP/1.1 GET /please_read/_search" - 404 Not Found
+140.205.201.36:43664 - - [05/Apr/2017 13:55:05] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.36:43924 - - [05/Apr/2017 13:55:05] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.36:44087 - - [05/Apr/2017 13:55:06] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.36:44265 - - [05/Apr/2017 13:55:06] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.201.36:52808 - - [05/Apr/2017 14:00:02] "HTTP/1.1 GET /about/" - 404 Not Found
+140.205.201.36:45059 - - [05/Apr/2017 14:07:03] "HTTP/1.1 GET /clusters.jsf" - 404 Not Found
+140.205.201.36:49567 - - [05/Apr/2017 14:28:46] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:52891 - - [05/Apr/2017 14:32:08] "HTTP/1.1 GET /hwi/" - 404 Not Found
+66.249.69.9:51849 - - [05/Apr/2017 14:33:20] "HTTP/1.1 GET /goods/577" - 404 Not Found
+140.205.201.36:50437 - - [05/Apr/2017 14:33:58] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.201.36:42733 - - [05/Apr/2017 14:36:46] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:56364 - - [05/Apr/2017 14:37:03] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:34753 - - [05/Apr/2017 14:37:11] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:39020 - - [05/Apr/2017 14:37:16] "HTTP/1.1 GET /jobs/" - 404 Not Found
+140.205.201.36:41242 - - [05/Apr/2017 14:37:19] "HTTP/1.1 GET /ganglia/index.php" - 404 Not Found
+140.205.201.36:43043 - - [05/Apr/2017 14:37:22] "HTTP/1.1 GET /index.php" - 404 Not Found
+140.205.201.36:48861 - - [05/Apr/2017 14:37:28] "HTTP/1.1 GET /rs-status" - 404 Not Found
+140.205.201.36:55058 - - [05/Apr/2017 14:37:35] "HTTP/1.1 GET /master-status" - 404 Not Found
+140.205.201.36:58224 - - [05/Apr/2017 14:37:38] "HTTP/1.1 GET /dfshealth.html" - 404 Not Found
+140.205.201.36:34638 - - [05/Apr/2017 14:37:42] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:37845 - - [05/Apr/2017 14:37:46] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.201.36:43693 - - [05/Apr/2017 14:37:51] "HTTP/1.1 GET /dfshealth.jsp" - 404 Not Found
+140.205.201.36:56665 - - [05/Apr/2017 14:38:04] "HTTP/1.1 GET /solr/" - 404 Not Found
+140.205.201.36:60113 - - [05/Apr/2017 14:38:07] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:43113 - - [05/Apr/2017 14:38:18] "HTTP/1.1 GET /info" - 404 Not Found
+140.205.201.36:57882 - - [05/Apr/2017 14:38:34] "HTTP/1.1 GET /j_acegi_security_check" - 404 Not Found
+140.205.201.36:43309 - - [05/Apr/2017 14:38:48] "HTTP/1.1 GET /admin/" - 404 Not Found
+180.163.226.47:51510 - - [05/Apr/2017 14:38:50] "HTTP/1.1 GET /" - 200 OK
+140.205.201.36:45062 - - [05/Apr/2017 14:41:24] "HTTP/1.1 GET /" - 200 OK
+123.183.218.72:59961 - - [05/Apr/2017 15:02:44] "HTTP/1.1 GET /" - 200 OK
+123.183.218.72:59965 - - [05/Apr/2017 15:02:45] "HTTP/1.1 GET /" - 200 OK
+123.183.218.72:59971 - - [05/Apr/2017 15:02:45] "HTTP/1.1 GET /" - 200 OK
+88.198.66.230:58937 - - [05/Apr/2017 15:18:10] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+88.198.66.230:58937 - - [05/Apr/2017 15:18:12] "HTTP/1.1 GET /dataserver/561" - 404 Not Found
+88.198.66.230:58937 - - [05/Apr/2017 15:18:15] "HTTP/1.1 GET /dataserver/84" - 404 Not Found
+122.224.201.170:63515 - - [05/Apr/2017 15:18:51] "HTTP/1.1 GET /raw" - 200 OK
+122.224.201.170:63515 - - [05/Apr/2017 15:18:51] "HTTP/1.1 GET /static/css/styles.css" - 200 
+122.224.201.170:63515 - - [05/Apr/2017 15:18:51] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+122.224.201.170:63517 - - [05/Apr/2017 15:18:51] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+122.224.201.170:63518 - - [05/Apr/2017 15:18:51] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+122.224.201.170:63516 - - [05/Apr/2017 15:18:51] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+122.224.201.170:63518 - - [05/Apr/2017 15:18:52] "HTTP/1.1 GET /static/css/customize.css" - 200 
+122.224.201.170:63515 - - [05/Apr/2017 15:18:53] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:63515 - - [05/Apr/2017 15:18:53] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+122.224.201.170:63515 - - [05/Apr/2017 15:18:54] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+122.224.201.170:63517 - - [05/Apr/2017 15:18:54] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+122.224.201.170:63524 - - [05/Apr/2017 15:19:25] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:39] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:39] "HTTP/1.1 GET /static/css/styles.css" - 200 
+122.224.201.170:2341 - - [05/Apr/2017 15:20:39] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+122.224.201.170:2344 - - [05/Apr/2017 15:20:39] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+122.224.201.170:2340 - - [05/Apr/2017 15:20:39] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+122.224.201.170:2348 - - [05/Apr/2017 15:20:39] "HTTP/1.1 GET /static/css/customize.css" - 200 
+122.224.201.170:2347 - - [05/Apr/2017 15:20:39] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+122.224.201.170:2347 - - [05/Apr/2017 15:20:40] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+122.224.201.170:2340 - - [05/Apr/2017 15:20:40] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+122.224.201.170:2340 - - [05/Apr/2017 15:20:41] "HTTP/1.1 GET /favicon.ico" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:45] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:2347 - - [05/Apr/2017 15:20:45] "HTTP/1.1 GET /static/img/about/gmail.png" - 200 
+122.224.201.170:2340 - - [05/Apr/2017 15:20:45] "HTTP/1.1 GET /static/img/about/douban.png" - 200 
+122.224.201.170:2340 - - [05/Apr/2017 15:20:50] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:51] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:52] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:53] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:54] "HTTP/1.1 GET /archive" - 200 OK
+ast):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog/2017/07/02/webpy.com' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog/2017/07/02/webpy.com' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog/2017/07/02/webpy.com' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog/2017/07/02/webpy.com' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/2017/07/02/web.py_markdown_blog.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_widget
+    i = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: '/about.html' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 264, in _init_related_entries
+    index = self.urls.index(url)
+ValueError: u'/blog' is not in list
+
+Traceback (most recent call last):
+  File "/home/blog/service.py", line 286, in _init_abouts_122.224.201.170:2340 - - [05/Apr/2017 15:20:55] "HTTP/1.1 GET /raw" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:56] "HTTP/1.1 GET /raw" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:57] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:58] "HTTP/1.1 GET /archive" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:20:59] "HTTP/1.1 GET /raw" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:21:00] "HTTP/1.1 GET /archive" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:21:02] "HTTP/1.1 GET /raw" - 200 OK
+122.224.201.170:2340 - - [05/Apr/2017 15:21:02] "HTTP/1.1 GET /about.html" - 200 OK
+66.249.69.134:48741 - - [05/Apr/2017 16:03:22] "HTTP/1.1 GET /help/15" - 404 Not Found
+123.151.42.61:10091 - - [05/Apr/2017 16:22:05] "HTTP/1.1 GET " - 404 Not Found
+123.151.42.61:10909 - - [05/Apr/2017 16:22:08] "HTTP/1.1 GET " - 404 Not Found
+66.249.69.137:61398 - - [05/Apr/2017 17:33:20] "HTTP/1.1 GET /goods_list/1_41_1" - 404 Not Found
+90.178.85.176:55548 - - [05/Apr/2017 18:01:17] "HTTP/1.1 GET /" - 200 OK
+116.62.176.205:35165 - - [05/Apr/2017 18:41:13] "HTTP/1.1 GET /" - 200 OK
+139.162.88.63:56802 - - [05/Apr/2017 19:32:22] "HTTP/1.1 GET echo.php" - 404 Not Found
+66.249.69.131:39003 - - [05/Apr/2017 20:00:09] "HTTP/1.1 GET /dataserver/556" - 404 Not Found
+42.236.99.2:38606 - - [05/Apr/2017 20:48:49] "HTTP/1.1 GET /goods_list/2_15_2" - 404 Not Found
+42.236.10.113:60969 - - [05/Apr/2017 20:48:49] "HTTP/1.1 GET /goods/206" - 404 Not Found
+42.236.99.178:52204 - - [05/Apr/2017 20:48:50] "HTTP/1.1 GET /dataserver/406" - 404 Not Found
+42.236.99.178:51831 - - [05/Apr/2017 20:48:50] "HTTP/1.1 GET /uname/1000008432" - 404 Not Found
+42.236.99.178:51980 - - [05/Apr/2017 20:48:50] "HTTP/1.1 GET /uname/1000006918" - 404 Not Found
+42.236.99.178:52250 - - [05/Apr/2017 20:48:50] "HTTP/1.1 GET /uname/1000003462" - 404 Not Found
+42.236.99.58:41993 - - [05/Apr/2017 20:48:50] "HTTP/1.1 GET /uname/1000006912" - 404 Not Found
+42.236.10.83:24386 - - [05/Apr/2017 20:48:50] "HTTP/1.1 GET /uname/1000003739" - 404 Not Found
+42.236.99.206:25219 - - [05/Apr/2017 20:48:50] "HTTP/1.1 GET /uname/1000001850" - 404 Not Found
+42.236.10.83:24407 - - [05/Apr/2017 20:48:50] "HTTP/1.1 GET /goods_list/1_32_1" - 404 Not Found
+180.153.236.35:57748 - - [05/Apr/2017 20:48:58] "HTTP/1.1 GET /uname/1000006873" - 404 Not Found
+180.153.236.19:41116 - - [05/Apr/2017 20:48:59] "HTTP/1.1 GET /userbuy/1000007022" - 404 Not Found
+180.153.236.133:51322 - - [05/Apr/2017 20:49:00] "HTTP/1.1 GET /uname/1000004191" - 404 Not Found
+180.153.236.133:51349 - - [05/Apr/2017 20:49:00] "HTTP/1.1 GET /uname/1000009414" - 404 Not Found
+180.153.236.189:39465 - - [05/Apr/2017 20:49:00] "HTTP/1.1 GET /uname/1000009190" - 404 Not Found
+42.236.99.206:27618 - - [05/Apr/2017 20:49:00] "HTTP/1.1 GET /uname/1000008442" - 404 Not Found
+42.236.10.75:11635 - - [05/Apr/2017 20:49:00] "HTTP/1.1 GET /uname/1000003754" - 404 Not Found
+42.236.99.79:23273 - - [05/Apr/2017 20:49:01] "HTTP/1.1 GET /userbuy/1000010216" - 404 Not Found
+42.236.99.79:23391 - - [05/Apr/2017 20:49:01] "HTTP/1.1 GET /goods/591" - 404 Not Found
+180.153.236.149:52740 - - [05/Apr/2017 20:49:01] "HTTP/1.1 GET /uname/1000002789" - 404 Not Found
+42.236.10.74:1032 - - [05/Apr/2017 20:49:08] "HTTP/1.1 GET /goods/496" - 404 Not Found
+42.236.10.112:47379 - - [05/Apr/2017 20:49:09] "HTTP/1.1 GET /uname/1000008740" - 404 Not Found
+42.236.99.2:42858 - - [05/Apr/2017 20:49:10] "HTTP/1.1 GET /uname/1000012030" - 404 Not Found
+180.153.236.19:41222 - - [05/Apr/2017 20:49:10] "HTTP/1.1 GET /uname/1000010659" - 404 Not Found
+42.236.10.109:50383 - - [05/Apr/2017 20:49:10] "HTTP/1.1 GET /goods_list/20_81_0" - 404 Not Found
+42.236.10.109:50386 - - [05/Apr/2017 20:49:10] "HTTP/1.1 GET /uname/1000001534" - 404 Not Found
+42.236.99.2:44789 - - [05/Apr/2017 20:49:11] "HTTP/1.1 GET /uname/1000004550" - 404 Not Found
+42.236.99.206:32387 - - [05/Apr/2017 20:49:11] "HTTP/1.1 GET /uname/1000011421" - 404 Not Found
+42.236.99.178:61900 - - [05/Apr/2017 20:49:11] "HTTP/1.1 GET /uname/1000010567" - 404 Not Found
+42.236.10.100:61423 - - [05/Apr/2017 20:49:11] "HTTP/1.1 GET /uname/1000000174" - 404 Not Found
+42.236.99.79:48329 - - [05/Apr/2017 20:49:19] "HTTP/1.1 GET /goods_list/0_48_1" - 404 Not Found
+180.153.236.19:42516 - - [05/Apr/2017 20:49:20] "HTTP/1.1 GET /userbuy/1000007233" - 404 Not Found
+42.236.10.109:50597 - - [05/Apr/2017 20:49:20] "HTTP/1.1 GET /uname/1000007648" - 404 Not Found
+42.236.99.58:6387 - - [05/Apr/2017 20:49:20] "HTTP/1.1 GET /uname/1000003371" - 404 Not Found
+42.236.99.2:3895 - - [05/Apr/2017 20:49:20] "HTTP/1.1 GET /uname/1000005679" - 404 Not Found
+42.236.99.79:50847 - - [05/Apr/2017 20:49:21] "HTTP/1.1 GET /uname/1000006578" - 404 Not Found
+42.236.99.16:1297 - - [05/Apr/2017 20:49:21] "HTTP/1.1 GET /goods_list/1_33_1" - 404 Not Found
+42.236.99.2:4613 - - [05/Apr/2017 20:49:21] "HTTP/1.1 GET /uname/1000005327" - 404 Not Found
+42.236.10.112:47748 - - [05/Apr/2017 20:49:21] "HTTP/1.1 GET /goods/205" - 404 Not Found
+42.236.99.16:24906 - - [05/Apr/2017 20:49:21] "HTTP/1.1 GET /uname/1000012260" - 404 Not Found
+42.236.10.80:25934 - - [05/Apr/2017 20:49:21] "HTTP/1.1 GET /uname/1000005326" - 404 Not Found
+42.236.99.58:31364 - - [05/Apr/2017 20:49:29] "HTTP/1.1 GET /uname/1000004933" - 404 Not Found
+42.236.10.74:1448 - - [05/Apr/2017 20:49:29] "HTTP/1.1 GET /uname/1000010670" - 404 Not Found
+42.236.99.178:42105 - - [05/Apr/2017 20:49:30] "HTTP/1.1 GET /uname/1000000950" - 404 Not Found
+42.236.10.78:5149 - - [05/Apr/2017 20:49:31] "HTTP/1.1 GET /uname/1000000076" - 404 Not Found
+42.236.10.115:53374 - - [05/Apr/2017 20:49:31] "HTTP/1.1 GET /goods_list/1_2_2" - 404 Not Found
+42.236.99.16:28219 - - [05/Apr/2017 20:49:31] "HTTP/1.1 GET /goods/574" - 404 Not Found
+42.236.99.16:30311 - - [05/Apr/2017 20:49:31] "HTTP/1.1 GET /uname/1000006162" - 404 Not Found
+42.236.10.109:50827 - - [05/Apr/2017 20:49:31] "HTTP/1.1 GET /uname/1000000080" - 404 Not Found
+180.153.236.149:55600 - - [05/Apr/2017 20:49:31] "HTTP/1.1 GET /userbuy/1000005202" - 404 Not Found
+42.236.10.115:53537 - - [05/Apr/2017 20:49:32] "HTTP/1.1 GET /uname/1000000549" - 404 Not Found
+42.236.99.58:57703 - - [05/Apr/2017 20:49:39] "HTTP/1.1 GET /uname/1000000036" - 404 Not Found
+42.236.10.112:47930 - - [05/Apr/2017 20:49:40] "HTTP/1.1 GET /uname/1000006166" - 404 Not Found
+42.236.10.100:61804 - - [05/Apr/2017 20:49:40] "HTTP/1.1 GET /uname/1000009818" - 404 Not Found
+66.249.69.134:58055 - - [05/Apr/2017 21:07:42] "HTTP/1.1 GET /uname/1000011495" - 404 Not Found
+66.249.69.5:63732 - - [05/Apr/2017 21:12:54] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+66.249.69.5:63732 - - [05/Apr/2017 21:12:54] "HTTP/1.1 GET /goods/427" - 404 Not Found
+66.249.69.134:38368 - - [05/Apr/2017 22:08:54] "HTTP/1.1 GET /help/11" - 404 Not Found
+66.249.69.9:43641 - - [05/Apr/2017 22:24:24] "HTTP/1.1 GET /userraffle/1000004908" - 404 Not Found
+163.172.134.70:47334 - - [05/Apr/2017 23:30:49] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+66.249.69.9:45262 - - [05/Apr/2017 23:35:22] "HTTP/1.1 GET /uname/1000007215" - 404 Not Found
+66.249.79.156:36040 - - [06/Apr/2017 00:31:54] "HTTP/1.1 GET /robots.txt" - 404 Not Found
+66.249.79.160:43812 - - [06/Apr/2017 00:31:55] "HTTP/1.1 GET /uname/1000007647" - 404 Not Found
+66.249.79.164:41588 - - [06/Apr/2017 00:47:02] "HTTP/1.1 GET /goods_list/1_46_1" - 404 Not Found
+66.249.79.164:56647 - - [06/Apr/2017 01:17:31] "HTTP/1.1 GET /go/goods/go_record_ifram/158/20" - 404 Not Found
+66.249.79.156:61303 - - [06/Apr/2017 01:27:32] "HTTP/1.1 GET /go/shaidan/itemiframstory/584" - 404 Not Found
+66.249.79.164:40504 - - [06/Apr/2017 01:27:32] "HTTP/1.1 GET /uname/1000007117" - 404 Not Found
+66.249.79.170:51681 - - [06/Apr/2017 01:47:32] "HTTP/1.1 GET /goods_list/22_0_4" - 404 Not Found
+61.160.215.150:56771 - - [06/Apr/2017 02:34:43] "HTTP/1.1 GET /index.action/shell" - 404 Not Found
+61.160.215.150:56771 - - [06/Apr/2017 02:34:43] "HTTP/1.1 GET /index.action/shell" - 404 Not Found
+61.160.215.150:56771 - - [06/Apr/2017 02:34:43] "HTTP/1.1 GET /index.action/shell" - 404 Not Found
+61.160.215.150:56771 - - [06/Apr/2017 02:34:44] "HTTP/1.1 GET /index.action/shell" - 404 Not Found
+66.249.79.164:58174 - - [06/Apr/2017 02:38:42] "HTTP/1.1 GET /uname/1000002448" - 404 Not Found
+116.62.176.205:41092 - - [06/Apr/2017 02:52:23] "HTTP/1.1 GET /" - 200 OK
+66.249.79.164:60722 - - [06/Apr/2017 03:06:40] "HTTP/1.1 GET /uname/1000008247" - 404 Not Found
+66.249.79.160:44207 - - [06/Apr/2017 03:11:40] "HTTP/1.1 GET /go/goods/go_record_ifram/89/20" - 404 Not Found
+66.249.79.156:36859 - - [06/Apr/2017 03:23:37] "HTTP/1.1 GET /go/goods/go_record_ifram/294/20" - 404 Not Found
+140.205.225.187:42519 - - [06/Apr/2017 03:34:43] "HTTP/1.1 POST /nafizojckhmb" - 405 Method Not Allowed
+140.205.225.187:42521 - - [06/Apr/2017 03:34:43] "HTTP/1.1 GET /nafizojckhmb" - 404 Not Found
+140.205.225.187:42863 - - [06/Apr/2017 03:34:43] "HTTP/1.1 DELETE /nafizojckhmb" - 405 Method Not Allowed
+140.205.225.187:43116 - - [06/Apr/2017 03:34:44] "HTTP/1.1 GET /warning" - 404 Not Found
+140.205.225.187:32016 - - [06/Apr/2017 03:35:31] "HTTP/1.1 GET /pleasereadthis" - 404 Not Found
+140.205.225.187:19801 - - [06/Apr/2017 03:36:12] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.225.187:19984 - - [06/Apr/2017 03:36:12] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.225.187:20212 - - [06/Apr/2017 03:36:13] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.225.187:20374 - - [06/Apr/2017 03:36:13] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.225.187:20406 - - [06/Apr/2017 03:36:13] "HTTP/1.1 GET /please_read/_search" - 404 Not Found
+140.205.225.187:58763 - - [06/Apr/2017 03:36:43] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.225.187:58849 - - [06/Apr/2017 03:36:43] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.225.187:59076 - - [06/Apr/2017 03:36:43] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.225.187:59323 - - [06/Apr/2017 03:36:44] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+140.205.225.187:43715 - - [06/Apr/2017 03:37:20] "HTTP/1.1 GET /about/" - 404 Not Found
+140.205.225.187:10563 - - [06/Apr/2017 03:40:20] "HTTP/1.1 GET /clusters.jsf" - 404 Not Found
+140.205.225.187:13461 - - [06/Apr/2017 03:42:38] "HTTP/1.1 GET /" - 200 OK
+140.205.225.187:17833 - - [06/Apr/2017 03:42:44] "HTTP/1.1 GET /hwi/" - 404 Not Found
+140.205.225.187:28567 - - [06/Apr/2017 03:42:57] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.225.187:28585 - - [06/Apr/2017 03:42:57] "HTTP/1.1 GET /" - 200 OK
+66.249.79.164:37595 - - [06/Apr/2017 03:47:00] "HTTP/1.1 GET /uname/1000010415" - 404 Not Found
+140.205.225.187:4110 - - [06/Apr/2017 03:51:08] "HTTP/1.1 GET /" - 200 OK
+140.205.225.187:15282 - - [06/Apr/2017 03:56:43] "HTTP/1.1 GET /" - 200 OK
+179.218.23.123:43949 - - [06/Apr/2017 03:58:13] "HTTP/1.1 GET /hndUnblock.cgi" - 404 Not Found
+179.218.23.123:43957 - - [06/Apr/2017 03:58:14] "HTTP/1.1 GET /tmUnblock.cgi" - 404 Not Found
+179.218.23.123:43967 - - [06/Apr/2017 03:58:16] "HTTP/1.1 POST /cgi" - 405 Method Not Allowed
+179.218.23.123:43977 - - [06/Apr/2017 03:58:16] "HTTP/1.1 POST /cgi-bin/cgiSrv.cgi" - 405 Method Not Allowed
+179.218.23.123:43982 - - [06/Apr/2017 03:58:17] "HTTP/1.1 GET /" - 200 OK
+140.205.225.187:63730 - - [06/Apr/2017 03:59:53] "HTTP/1.1 GET /jobs/" - 404 Not Found
+140.205.225.187:18596 - - [06/Apr/2017 04:02:45] "HTTP/1.1 GET /ganglia/index.php" - 404 Not Found
+140.205.225.187:63192 - - [06/Apr/2017 04:09:18] "HTTP/1.1 GET /index.php" - 404 Not Found
+140.205.225.187:32465 - - [06/Apr/2017 04:17:58] "HTTP/1.1 GET /rs-status" - 404 Not Found
+140.205.225.187:34428 - - [06/Apr/2017 04:21:30] "HTTP/1.1 GET /master-status" - 404 Not Found
+140.205.225.187:42312 - - [06/Apr/2017 04:21:35] "HTTP/1.1 GET /dfshealth.html" - 404 Not Found
+140.205.225.187:52328 - - [06/Apr/2017 04:21:43] "HTTP/1.1 GET /" - 200 OK
+140.205.225.187:54970 - - [06/Apr/2017 04:21:45] "HTTP/1.1 POST /" - 405 Method Not Allowed
+140.205.225.187:62501 - - [06/Apr/2017 04:21:51] "HTTP/1.1 GET /dfshealth.jsp" - 404 Not Found
+140.205.225.187:65232 - - [06/Apr/2017 04:21:53] "HTTP/1.1 GET /hadoop/dfshealth.jsp" - 404 Not Found
+140.205.225.187:10707 - - [06/Apr/2017 04:22:01] "HTTP/1.1 GET /solr/" - 404 Not Found
+140.205.225.187:13775 - - [06/Apr/2017 04:22:03] "HTTP/1.1 GET /" - 200 OK
+66.249.79.164:57787 - - [06/Apr/2017 04:22:09] "HTTP/1.1 GET /goods_list/0_26_4" - 404 Not Found
+140.205.225.187:26509 - - [06/Apr/2017 04:22:14] "HTTP/1.1 GET /info" - 404 Not Found
+140.205.225.187:56296 - - [06/Apr/2017 04:22:39] "HTTP/1.1 GET /j_acegi_security_check" - 404 Not Found
+140.205.225.187:63089 - - [06/Apr/2017 04:22:45] "HTTP/1.1 GET /admin/" - 404 Not Found
+140.205.225.187:3947 - - [06/Apr/2017 04:22:50] "HTTP/1.1 GET /" - 200 OK
+66.249.79.160:42064 - - [06/Apr/2017 04:27:09] "HTTP/1.1 GET /goods/40" - 404 Not Found
+66.249.79.160:45904 - - [06/Apr/2017 04:37:38] "HTTP/1.1 GET /goods_list/20_0_0" - 404 Not Found
+66.249.79.28:54666 - - [06/Apr/2017 05:02:50] "HTTP/1.1 GET /uname/1000011863" - 404 Not Found
+66.249.79.170:60900 - - [06/Apr/2017 05:21:34] "HTTP/1.1 GET /userraffle/1000000350" - 404 Not Found
+66.249.79.28:51164 - - [06/Apr/2017 05:26:49] "HTTP/1.1 GET /uname/1000005258" - 404 Not Found
+66.249.79.24:45485 - - [06/Apr/2017 05:27:07] "HTTP/1.1 GET /userraffle/1000004121" - 404 Not Found
+66.249.79.28:37193 - - [06/Apr/2017 06:07:24] "HTTP/1.1 GET /" - 200 OK
+66.249.79.28:35401 - - [06/Apr/2017 06:17:33] "HTTP/1.1 GET /uname/1000001946" - 404 Not Found
+66.249.79.160:39484 - - [06/Apr/2017 06:26:09] "HTTP/1.1 GET /goods/574" - 404 Not Found
+119.23.127.40:22140 - - [06/Apr/2017 06:27:14] "HTTP/1.1 GET /" - 200 OK
+66.249.79.28:55580 - - [06/Apr/2017 06:27:44] "HTTP/1.1 GET /goods/535" - 404 Not Found
+66.249.79.28:55580 - - [06/Apr/2017 06:27:46] "HTTP/1.1 GET /goods/38" - 404 Not Found
+66.249.79.28:57267 - - [06/Apr/2017 06:37:44] "HTTP/1.1 GET /uname/1000003750" - 404 Not Found
+66.249.79.24:41993 - - [06/Apr/2017 06:42:54] "HTTP/1.1 GET /uname/1000011178" - 404 Not Found
+80.82.78.38:55169 - - [06/Apr/2017 06:45:19] "HTTP/1.1 GET cache/global/img/gs.gif" - 404 Not Found
+66.249.79.20:47344 - - [06/Apr/2017 06:58:15] "HTTP/1.1 GET /uname/1000001746" - 404 Not Found
+66.249.79.20:34949 - - [06/Apr/2017 07:08:14] "HTTP/1.1 GET /uname/1000007341" - 404 Not Found
+66.249.79.20:34949 - - [06/Apr/2017 07:08:15] "HTTP/1.1 GET /go/goods/go_record_ifram/566/20" - 404 Not Found
+66.249.79.170:43925 - - [06/Apr/2017 07:13:14] "HTTP/1.1 GET /" - 200 OK
+112.17.241.198:51531 - - [06/Apr/2017 07:22:26] "HTTP/1.1 GET /" - 200 OK
+112.17.241.198:51531 - - [06/Apr/2017 07:22:26] "HTTP/1.1 GET /static/css/styles.css" - 200 
+112.17.241.198:51532 - - [06/Apr/2017 07:22:26] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+112.17.241.198:51533 - - [06/Apr/2017 07:22:26] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+112.17.241.198:51531 - - [06/Apr/2017 07:22:26] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+112.17.241.198:51534 - - [06/Apr/2017 07:22:27] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+112.17.241.198:51532 - - [06/Apr/2017 07:22:28] "HTTP/1.1 GET /static/css/customize.css" - 200 
+112.17.241.198:51531 - - [06/Apr/2017 07:22:28] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+112.17.241.198:51532 - - [06/Apr/2017 07:22:29] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+112.17.241.198:51531 - - [06/Apr/2017 07:22:30] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51535 - - [06/Apr/2017 07:23:06] "HTTP/1.1 GET /about.html" - 200 OK
+112.17.241.198:51535 - - [06/Apr/2017 07:23:06] "HTTP/1.1 GET /static/img/about/douban.png" - 200 
+112.17.241.198:51536 - - [06/Apr/2017 07:23:07] "HTTP/1.1 GET /static/img/about/gmail.png" - 200 
+112.17.241.198:51535 - - [06/Apr/2017 07:23:08] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+66.249.79.20:61588 - - [06/Apr/2017 07:23:25] "HTTP/1.1 GET /uname/405.html" - 404 Not Found
+112.17.241.198:51537 - - [06/Apr/2017 07:23:25] "HTTP/1.1 GET /" - 200 OK
+112.17.241.198:51537 - - [06/Apr/2017 07:23:27] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51538 - - [06/Apr/2017 07:23:29] "HTTP/1.1 GET /" - 200 OK
+112.17.241.198:51538 - - [06/Apr/2017 07:23:30] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51540 - - [06/Apr/2017 07:23:51] "HTTP/1.1 GET /search" - 200 OK
+112.17.241.198:51540 - - [06/Apr/2017 07:23:53] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51541 - - [06/Apr/2017 07:24:15] "HTTP/1.1 GET /" - 200 OK
+112.17.241.198:51541 - - [06/Apr/2017 07:24:18] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51542 - - [06/Apr/2017 07:24:28] "HTTP/1.1 GET /about.html" - 200 OK
+112.17.241.198:51542 - - [06/Apr/2017 07:24:29] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51543 - - [06/Apr/2017 07:24:39] "HTTP/1.1 GET /" - 200 OK
+112.17.241.198:51543 - - [06/Apr/2017 07:24:40] "HTTP/1.1 GET /static/css/styles.css" - 200 
+112.17.241.198:51544 - - [06/Apr/2017 07:24:40] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+112.17.241.198:51545 - - [06/Apr/2017 07:24:40] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+112.17.241.198:51543 - - [06/Apr/2017 07:24:40] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+112.17.241.198:51546 - - [06/Apr/2017 07:24:40] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+112.17.241.198:51544 - - [06/Apr/2017 07:24:41] "HTTP/1.1 GET /static/css/customize.css" - 200 
+112.17.241.198:51543 - - [06/Apr/2017 07:24:41] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+112.17.241.198:51544 - - [06/Apr/2017 07:24:41] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+112.17.241.198:51544 - - [06/Apr/2017 07:24:44] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51547 - - [06/Apr/2017 07:24:51] "HTTP/1.1 GET /archive" - 200 OK
+112.17.241.198:51547 - - [06/Apr/2017 07:24:52] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51547 - - [06/Apr/2017 07:24:53] "HTTP/1.1 GET /" - 200 OK
+112.17.241.198:51547 - - [06/Apr/2017 07:24:54] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51548 - - [06/Apr/2017 07:25:06] "HTTP/1.1 GET /about.html" - 200 OK
+112.17.241.198:51548 - - [06/Apr/2017 07:25:07] "HTTP/1.1 GET /static/img/about/gmail.png" - 200 
+112.17.241.198:51549 - - [06/Apr/2017 07:25:07] "HTTP/1.1 GET /static/img/about/douban.png" - 200 
+112.17.241.198:51549 - - [06/Apr/2017 07:25:10] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+112.17.241.198:51552 - - [06/Apr/2017 07:25:36] "HTTP/1.1 GET /" - 200 OK
+112.17.241.198:51552 - - [06/Apr/2017 07:25:38] "HTTP/1.1 GET /{{imgSrc}}" - 404 Not Found
+66.249.79.24:60439 - - [06/Apr/2017 07:33:34] "HTTP/1.1 GET /uname/1000008237" - 404 Not Found
+66.249.79.28:43750 - - [06/Apr/2017 07:48:54] "HTTP/1.1 GET /userraffle/1000010569" - 404 Not Found
+66.249.79.28:43750 - - [06/Apr/2017 07:48:55] "HTTP/1.1 GET /goods_list/1_0_6" - 404 Not Found
+66.249.79.170:58473 - - [06/Apr/2017 07:58:54] "HTTP/1.1 GET /goods/38" - 404 Not Found
+122.224.201.170:1229 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:1229 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /static/css/styles.css" - 304 Not Modified
+122.224.201.170:1231 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /static/js/jquery.js" - 304 Not Modified
+122.224.201.170:1234 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /static/js/bootstrap.js" - 304 Not Modified
+122.224.201.170:1229 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /static/css/customize.css" - 304 Not Modified
+122.224.201.170:1234 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /static/css/bootstrap.css" - 304 Not Modified
+122.224.201.170:1231 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 304 Not Modified
+122.224.201.170:1231 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 304 Not Modified
+122.224.201.170:1234 - - [06/Apr/2017 08:16:10] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 304 Not Modified
+122.224.201.170:1234 - - [06/Apr/2017 08:16:14] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:1231 - - [06/Apr/2017 08:16:14] "HTTP/1.1 GET /static/img/about/gmail.png" - 304 Not Modified
+122.224.201.170:1234 - - [06/Apr/2017 08:16:14] "HTTP/1.1 GET /static/img/about/douban.png" - 304 Not Modified
+122.224.201.170:1234 - - [06/Apr/2017 08:16:16] "HTTP/1.1 GET /raw" - 200 OK
+122.224.201.170:1234 - - [06/Apr/2017 08:16:17] "HTTP/1.1 GET /archive" - 200 OK
+122.224.201.170:1234 - - [06/Apr/2017 08:16:17] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:1234 - - [06/Apr/2017 08:16:18] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:1234 - - [06/Apr/2017 08:16:20] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:49332 - - [06/Apr/2017 08:19:17] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:49332 - - [06/Apr/2017 08:19:23] "HTTP/1.1 GET /archive" - 200 OK
+122.224.201.170:49336 - - [06/Apr/2017 08:19:50] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:49359 - - [06/Apr/2017 08:25:42] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:49359 - - [06/Apr/2017 08:25:51] "HTTP/1.1 GET /" - 200 OK
+119.23.127.40:61142 - - [06/Apr/2017 08:37:29] "HTTP/1.1 GET /" - 200 OK
+66.249.79.20:62607 - - [06/Apr/2017 08:55:04] "HTTP/1.1 GET /uname/1000005428" - 404 Not Found
+42.156.251.188:33767 - - [06/Apr/2017 08:56:07] "HTTP/1.1 GET /" - 200 OK
+66.249.79.24:36712 - - [06/Apr/2017 09:00:15] "HTTP/1.1 GET /go/autolottery" - 404 Not Found
+196.52.43.53:33603 - - [06/Apr/2017 09:02:01] "HTTP/1.1 GET /" - 200 OK
+66.249.79.24:54244 - - [06/Apr/2017 09:07:25] "HTTP/1.1 GET /uname/1000012243" - 404 Not Found
+66.249.79.24:62409 - - [06/Apr/2017 09:32:35] "HTTP/1.1 GET /userraffle/1000005117" - 404 Not Found
+66.249.79.24:56414 - - [06/Apr/2017 09:37:34] "HTTP/1.1 GET /goods_list/0_87_2" - 404 Not Found
+122.224.201.170:18072 - - [06/Apr/2017 09:50:36] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:18072 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/css/styles.css" - 200 
+122.224.201.170:18072 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+122.224.201.170:18078 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+122.224.201.170:49568 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+122.224.201.170:18103 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+122.224.201.170:18072 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/css/customize.css" - 200 
+122.224.201.170:18106 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:18106 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+122.224.201.170:18125 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/css/customize.css" - 200 
+122.224.201.170:18117 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+122.224.201.170:49571 - - [06/Apr/2017 09:50:37] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+122.224.201.170:18106 - - [06/Apr/2017 09:50:40] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+122.224.201.170:49571 - - [06/Apr/2017 09:50:40] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+122.224.201.170:18106 - - [06/Apr/2017 09:50:44] "HTTP/1.1 GET /blog/2017/04/06/Note_blog.html" - 200 OK
+122.224.201.170:49579 - - [06/Apr/2017 09:50:54] "HTTP/1.1 GET /archive" - 200 OK
+122.224.201.170:49579 - - [06/Apr/2017 09:50:58] "HTTP/1.1 GET /blog/2017/04/06/Note_blog.html" - 200 OK
+122.224.201.170:49581 - - [06/Apr/2017 09:52:12] "HTTP/1.1 GET /archive" - 200 OK
+122.224.201.170:49581 - - [06/Apr/2017 09:52:16] "HTTP/1.1 GET /blog/2017/04/06/Note_blog.html" - 200 OK
+66.249.79.20:43541 - - [06/Apr/2017 09:52:55] "HTTP/1.1 GET /userbuy/1000005659" - 404 Not Found
+66.249.79.24:63776 - - [06/Apr/2017 09:52:56] "HTTP/1.1 GET /userbuy/1000005659" - 404 Not Found
+122.224.201.170:49585 - - [06/Apr/2017 09:54:12] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:49585 - - [06/Apr/2017 09:54:17] "HTTP/1.1 GET /search" - 200 OK
+122.224.201.170:49585 - - [06/Apr/2017 09:54:23] "HTTP/1.1 GET /search" - 200 OK
+66.249.79.20:47909 - - [06/Apr/2017 10:02:53] "HTTP/1.1 GET /userraffle/1000008615" - 404 Not Found
+140.205.201.35:5606 - - [06/Apr/2017 10:23:52] "HTTP/1.1 POST /urcdpawfhxnz" - 405 Method Not Allowed
+140.205.201.35:5612 - - [06/Apr/2017 10:23:52] "HTTP/1.1 GET /urcdpawfhxnz" - 404 Not Found
+140.205.201.35:5669 - - [06/Apr/2017 10:23:52] "HTTP/1.1 DELETE /urcdpawfhxnz" - 405 Method Not Allowed
+122.224.201.170:49666 - - [06/Apr/2017 10:23:53] "HTTP/1.1 GET /" - 200 OK
+140.205.201.35:6111 - - [06/Apr/2017 10:23:54] "HTTP/1.1 GET /warning" - 404 Not Found
+122.224.201.170:49666 - - [06/Apr/2017 10:23:57] "HTTP/1.1 GET /blog/2017/04/06/Note_blog.html" - 200 OK
+122.224.201.170:49666 - - [06/Apr/2017 10:24:04] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:49666 - - [06/Apr/2017 10:24:07] "HTTP/1.1 GET /blog/2017/04/06/Note_blog.html" - 200 OK
+122.224.201.170:49666 - - [06/Apr/2017 10:24:12] "HTTP/1.1 GET /raw" - 200 OK
+122.224.201.170:49666 - - [06/Apr/2017 10:24:14] "HTTP/1.1 GET /raw/2017/04/06/Note_blog.md" - 200 OK
+122.224.201.170:49666 - - [06/Apr/2017 10:24:19] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:49666 - - [06/Apr/2017 10:24:21] "HTTP/1.1 GET /blog/2017/04/06/Note_blog.html" - 200 OK
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 458, in _delegate
+    mod = __import__(mod, None, None, [''])
+  File "/home/blog/controller.py", line 13, in <module>
+    from __init__ import entryService
+  File "/home/blog/__init__.py", line 13, in <module>
+    entryService = EntryService()
+  File "/home/blog/service.py", line 42, in __init__
+    self._init_blog()
+  File "/home/blog/service.py", line 53, in _init_blog
+    self.add_entry(False, root + '/' + f)
+  File "/home/blog/service.py", line 63, in add_entry
+    entry = self._init_entry(self.types.entry, path)
+  File "/home/blog/service.py", line 101, in _init_entry
+    content = content.replace(header, '')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xef in position 69: ordinal not in range(128)
+
+122.224.201.170:49679 - - [06/Apr/2017 10:25:17] "HTTP/1.1 GET /" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 458, in _delegate
+    mod = __import__(mod, None, None, [''])
+  File "/home/blog/controller.py", line 13, in <module>
+    from __init__ import entryService
+  File "/home/blog/__init__.py", line 13, in <module>
+    entryService = EntryService()
+  File "/home/blog/service.py", line 42, in __init__
+    self._init_blog()
+  File "/home/blog/service.py", line 53, in _init_blog
+    self.add_entry(False, root + '/' + f)
+  File "/home/blog/service.py", line 63, in add_entry
+    entry = self._init_entry(self.types.entry, path)
+  File "/home/blog/service.py", line 101, in _init_entry
+    content = content.replace(header, '')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xef in position 69: ordinal not in range(128)
+
+122.224.201.170:47632 - - [06/Apr/2017 10:27:05] "HTTP/1.1 GET /" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 458, in _delegate
+    mod = __import__(mod, None, None, [''])
+  File "/home/blog/controller.py", line 13, in <module>
+    from __init__ import entryService
+  File "/home/blog/__init__.py", line 13, in <module>
+    entryService = EntryService()
+  File "/home/blog/service.py", line 42, in __init__
+    self._init_blog()
+  File "/home/blog/service.py", line 53, in _init_blog
+    self.add_entry(False, root + '/' + f)
+  File "/home/blog/service.py", line 63, in add_entry
+    entry = self._init_entry(self.types.entry, path)
+  File "/home/blog/service.py", line 101, in _init_entry
+    content = content.replace(header, '')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xef in position 69: ordinal not in range(128)
+
+122.224.201.170:47632 - - [06/Apr/2017 10:27:08] "HTTP/1.1 GET /" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 239, in process
+    return self.handle()
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/lib/python2.7/site-packages/web/application.py", line 458, in _delegate
+    mod = __import__(mod, None, None, [''])
+  File "/home/blog/controller.py", line 13, in <module>
+    from __init__ import entryService
+  File "/home/blog/__init__.py", line 13, in <module>
+    entryService = EntryService()
+  File "/home/blog/service.py", line 42, in __init__
+    self._init_blog()
+  File "/home/blog/service.py", line 53, in _init_blog
+    self.add_entry(False, root + '/' + f)
+  File "/home/blog/service.py", line 63, in add_entry
+    entry = self._init_entry(self.types.entry, path)
+  File "/home/blog/service.py", line 101, in _init_entry
+    content = content.replace(header, '')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xef in position 69: ordinal not in range(128)
+
+122.224.201.170:47632 - - [06/Apr/2017 10:27:11] "HTTP/1.1 GET /" - 500 Internal Server Error
+122.224.201.170:14363 - - [06/Apr/2017 10:31:28] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:14363 - - [06/Apr/2017 10:31:28] "HTTP/1.1 GET /static/css/styles.css" - 200 
+122.224.201.170:14369 - - [06/Apr/2017 10:31:28] "HTTP/1.1 GET /static/js/bootstrap.js" - 200 
+122.224.201.170:14368 - - [06/Apr/2017 10:31:28] "HTTP/1.1 GET /static/js/jquery.js" - 200 
+122.224.201.170:14363 - - [06/Apr/2017 10:31:28] "HTTP/1.1 GET /static/css/bootstrap.css" - 200 
+122.224.201.170:14373 - - [06/Apr/2017 10:31:28] "HTTP/1.1 GET /static/css/bootstrap-responsive.css" - 200 
+122.224.201.170:14373 - - [06/Apr/2017 10:31:29] "HTTP/1.1 GET /static/css/customize.css" - 200 
+122.224.201.170:14363 - - [06/Apr/2017 10:31:30] "HTTP/1.1 GET /static/img/glyphicons-halflings.png" - 200 
+122.224.201.170:14368 - - [06/Apr/2017 10:31:30] "HTTP/1.1 GET /static/img/glyphicons-halflings-white.png" - 200 
+122.224.201.170:14363 - - [06/Apr/2017 10:31:33] "HTTP/1.1 GET /blog/2017/04/06/Note_blog.html" - 200 OK
+122.224.201.170:14363 - - [06/Apr/2017 10:31:39] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:14368 - - [06/Apr/2017 10:31:39] "HTTP/1.1 GET /static/img/about/gmail.png" - 200 
+122.224.201.170:14363 - - [06/Apr/2017 10:31:39] "HTTP/1.1 GET /static/img/about/douban.png" - 200 
+122.224.201.170:14363 - - [06/Apr/2017 10:31:41] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:14363 - - [06/Apr/2017 10:31:44] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:14363 - - [06/Apr/2017 10:31:47] "HTTP/1.1 GET /about.html" - 200 OK
+140.205.201.35:56201 - - [06/Apr/2017 10:32:08] "HTTP/1.1 GET /pleasereadthis" - 404 Not Found
+122.224.201.170:31983 - - [06/Apr/2017 10:35:02] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:31983 - - [06/Apr/2017 10:35:06] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:31983 - - [06/Apr/2017 10:35:09] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:31983 - - [06/Apr/2017 10:35:13] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:31983 - - [06/Apr/2017 10:35:17] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:31983 - - [06/Apr/2017 10:35:19] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:49717 - - [06/Apr/2017 10:35:34] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:32012 - - [06/Apr/2017 10:35:56] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:32012 - - [06/Apr/2017 10:36:05] "HTTP/1.1 GET /about.html" - 200 OK
+140.205.201.35:7382 - - [06/Apr/2017 10:36:08] "HTTP/1.1 GET /phpmyadmin/index.php" - 404 Not Found
+140.205.201.35:7399 - - [06/Apr/2017 10:36:09] "HTTP/1.1 GET /phpMyAdmin/index.php" - 404 Not Found
+140.205.201.35:7420 - - [06/Apr/2017 10:36:09] "HTTP/1.1 GET /pma/index.php" - 404 Not Found
+140.205.201.35:7573 - - [06/Apr/2017 10:36:09] "HTTP/1.1 GET /pmd/index.php" - 404 Not Found
+122.224.201.170:32012 - - [06/Apr/2017 10:36:15] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:32012 - - [06/Apr/2017 10:36:16] "HTTP/1.1 GET /" - 200 OK
+122.224.201.170:32012 - - [06/Apr/2017 10:36:19] "HTTP/1.1 GET /about.html" - 200 OK
+122.224.201.170:32012 - - [06/Apr/2017 10:36:21] "HTTP/1.1 GET /about.html" - 200 OK
+140.205.201.35:12562 - - [06/Apr/2017 10:36:30] "HTTP/1.1 GET /please_read/_search" - 404 Not Found

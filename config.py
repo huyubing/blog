@@ -1,18 +1,12 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-"""
-global configuration
-version 1.0
-history:
-2013-6-19    dylanninin@gmail.com    init
-"""
 
 import web
 
 blogconfig = web.storage(
-    name='pierre-msg',
-    home='http://121.196.222.186:8080',
-    author='damin',
+    name='Think网',
+    home='http://121.196.222.186',
+    author='pierre',
     disqus='"webpymdblog"',
     google_analytics='"UA-21870463-1"',
     template_dir='template',
