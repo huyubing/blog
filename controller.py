@@ -73,6 +73,7 @@ class Entry(object):
             url = config.entry_url + url
             params = entryService.find_by_url(entryService.types.entry, url)
             if params.entry == None:
+                print "error 2"
                 raise web.notfound(render.error(params))
             else:
                 return render.entry(params)

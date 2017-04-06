@@ -4,7 +4,7 @@
 import web
 
 blogconfig = web.storage(
-    name='Think网',
+    name='小菠萝网',
     home='http://121.196.222.186',
     author='pierre',
     disqus='"webpymdblog"',

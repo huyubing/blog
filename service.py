@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Entry Service.
-
-version 1.0
-history:
-2013-6-19    dylanninin@gmail.com    init
-2013-11-23    dylanninin@gmail.com     update tags, categories
-
-"""
 import traceback
 
 import os
@@ -50,6 +42,7 @@ class EntryService(object):
         """
         for root, _, files in os.walk(config.entry_dir):
             for f in files:
+                print f
                 self.add_entry(False, root + '/' + f)
         for root, _, files in os.walk(config.page_dir):
             for f in files:
@@ -116,11 +109,14 @@ class EntryService(object):
         try:
             content = codecs.open(file_path, mode='r', encoding='utf-8').read()
         except:
+            print "error" + file_path
             return nones
         if content is None or len(content.strip()) == 0:
             return nones
         date, mtime = None, None
         name, _ = os.path.splitext(os.path.basename(file_path))
+        print "name:" + name
+        print _
         chars = ['_', '-', '~']
         pattern = r'\d{4}-\d{1,2}-\d{1,2}'
         match = re.search(pattern, name)
@@ -150,6 +146,8 @@ class EntryService(object):
         time = date + mtime.strftime(config.time_fmt)[len('yyyy-mm-dd'):]
         url = url_prefix + name + config.url_suffix
         raw_url = raw_prefix + name + config.raw_suffix
+        print url
+        print raw_url
         for c in chars:
             name = name.replace(c, ' ')
         return url, raw_url, name, date, time, content
@@ -283,6 +281,10 @@ class EntryService(object):
             about = self.models.about(about_type)
             if about_type == self.types.entry and url is not None:
                 try:
+                    print url
+                    print 'test'
+                    print self.urls
+                    print  '------'
                     i = self.urls.index(url)
                     p, n = i + 1, i - 1
                 except:
